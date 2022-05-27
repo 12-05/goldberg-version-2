@@ -8,7 +8,7 @@
         <div class="page-wrap">
         <header class="header">
             <div class="logo-wrapper">
-                <a href="/"><img class="logo" src="<?php echoImg('Goldberg_logo.png');?>" /></a>
+                <a href="/"><img class="logo" src="<?php echoImg('goldberg_logo.png');?>" /></a>
             </div>
             <div class="toolbar">
                 <div class="phone">
