@@ -6,7 +6,9 @@
                 $offices = get_posts(
                     array(
                         'post_type' => 'office', 
-                        'posts_per_page' => -1
+                        'posts_per_page' => -1,
+                        'orderby' => 'date', 
+                        'order' => 'ASC'
                     )
                 );
                 if($offices) {
@@ -18,7 +20,7 @@
                             <p>
                                 Büro <?php echo get_field('stadt', $id);?><br />
                                 <?php echo get_field('strasse', $id);?><br />
-                                <?php echo get_field('postleitzahl', $id);?><?php echo get_field('stadt', $id);?>
+                                <?php echo get_field('postleitzahl', $id);?> <?php echo get_field('stadt', $id);?>
                             </p>
                             <p>
                                 Telefon: <?php echo get_field('telefon', $id);?><br />
