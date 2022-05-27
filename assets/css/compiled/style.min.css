@@ -4,8 +4,8 @@ h1,h2,h3{font-family:"Roboto Condensed";margin:0;font-weight:normal;line-height:
 h2{font-size:2.5rem}
 p{font-size:1rem;margin-top:0}
 .page-wrap{overflow:hidden;position:relative}
-.wrapped{max-width:80rem;margin:0 auto;padding:0 2rem}
-.wrapped.small{max-width:40rem}
+.wp-block-columns,.wrapped{max-width:80rem;margin:0 auto;padding:0 2rem}
+.wp-block-columns.small,.wrapped.small{max-width:40rem}
 .wp-block{max-width:100%}
 .wp-block[data-align="wide"]{max-width:100%}
 header{min-height:100px;background:#fff;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding:0 2rem;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-box-align:center;-ms-flex-align:center;align-items:center;max-width:100%;box-sizing:border-box}
