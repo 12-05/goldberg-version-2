@@ -74,8 +74,8 @@
                 ),
             ));
             acf_register_block_type(array(
-                'name'              => 'Goldberg Anwälte',
-                'title'             => __('Goldberg Anwälte'),
+                'name'              => 'Goldberg Anwaelte',
+                'title'             => __('Goldberg Anwaelte'),
                 'description'       => __('Anwälte für Goldberg.'),
                 'render_template'   => get_template_directory().'/inc/blocks/anwaelte.php',
                 'category'          => 'goldberg',
