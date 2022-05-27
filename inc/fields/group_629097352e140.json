@@ -106,25 +106,6 @@
             "delay": 0
         },
         {
-            "key": "field_62909775fedb3",
-            "label": "Medienauftritte",
-            "name": "medienauftritte",
-            "type": "wysiwyg",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "tabs": "all",
-            "toolbar": "full",
-            "media_upload": 1,
-            "delay": 0
-        },
-        {
             "key": "field_629097f170647",
             "label": "Bild",
             "name": "bild",
@@ -191,5 +172,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1653648658
+    "modified": 1653663192
 }
