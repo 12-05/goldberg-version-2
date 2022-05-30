@@ -529,6 +529,10 @@ header {
 	.wrapped {
 		display: grid;
 		grid-template-columns: 1fr 2fr;
+		// make one column on mobile
+		@media (max-width: $mobile) {
+			grid-template-columns: 1fr;
+		}
 		.news-list {
 			.post {
 				display: block;
@@ -547,6 +551,74 @@ header {
 				h3 {
 					font-size: 1.5rem;
 					margin-bottom: 1rem;
+				}
+			}
+		}
+	}
+}
+
+.anwalt-profil {
+	// make this responsive
+	.anwalt-hero {
+		background-size: cover;
+		background-position: center;
+		background-image: url("../../images/anwalt-bg.png");
+		.wrapped {
+			display: grid;
+			grid-template-columns: 2fr 2fr;
+			// make this one column on mobile
+			@media (max-width: $mobile) {
+				grid-template-columns: 1fr;
+			}
+			.anwalt-hero-bild {
+				display: flex;
+				align-items: flex-end;
+				img {
+					width: 100%;
+				}
+			}
+			.anwalt-hero-content {
+				@include sectionPad();
+
+				display: flex;
+				align-items: center;
+				h1 {
+					font-size: 4rem;
+					@media (max-width: $mobile) {
+						font-size: 2rem;
+					}
+				}
+				font-family: "Roboto Condensed", sans-serif;
+				font-size: 20px;
+
+				.group {
+					margin-bottom: 2rem;
+					.label {
+						font-family: "Roboto Condensed", sans-serif;
+						color: $blue;
+						font-weight: bold;
+					}
+					.standort {
+						font-family: "Roboto Condensed", sans-serif;
+						color: $blue;
+						font-weight: bold;
+						display: flex;
+						align-items: center;
+						// make map marker icon before the text
+						&:before {
+							content: "";
+							height: 20px;
+							width: 20px;
+							background-image: url("../../images/map-marker.svg");
+							background-color: transparent;
+							background-size: contain;
+							background-position: center;
+							background-repeat: no-repeat;
+							display: inline-block;
+							float: left;
+							margin-right: 0.5rem;
+						}
+					}
 				}
 			}
 		}
