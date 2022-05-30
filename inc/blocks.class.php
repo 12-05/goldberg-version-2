@@ -86,6 +86,19 @@
                 'align'        => false,
                 ),
             ));
+            acf_register_block_type(array(
+                'name'              => 'Goldberg Anwaelte Grid',
+                'title'             => __('Goldberg Anwaelte Grid'),
+                'description'       => __('Anwälte-Grid für Goldberg.'),
+                'render_template'   => get_template_directory().'/inc/blocks/anwaelte-grid.php',
+                'category'          => 'goldberg',
+                'icon'              => 'admin-comments',
+                'align'           => 'full',
+                'supports'        => array(
+                'align'        => array('full'),
+                'align'        => false,
+                ),
+            ));
         }
     }
 

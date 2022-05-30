@@ -70,6 +70,7 @@ header .nav ul li ul.sub-menu{display:none;margin-left:2rem;margin-top:1rem;marg
 .block-anwaelte .slick-prev:before{color:#163966}
 .block-anwaelte .slick-next:before{color:#163966}
 .block-anwaelte .slick-slide{height:auto}
+.block-anwaelte .anwalt-grid{display:grid;grid-gap:2rem;grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
 .block-anwaelte .anwalt{text-decoration:none;-webkit-transition:all .3s ease;transition:all .3s ease}
 .block-anwaelte .anwalt:hover{-webkit-transform:scale(1.05);transform:scale(1.05)}
 .block-anwaelte .anwalt .bild{background-size:cover;background-position:center;height:250px;background-color:#eee}

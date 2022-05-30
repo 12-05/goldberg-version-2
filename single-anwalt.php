@@ -1,4 +1,12 @@
 <?php 
-    get_header();
-    the_content();
+    get_header();?>
+    <div class="anwalt-profil">
+        <section class="
+
+
+    </div>
+
+
+    <?php 
+    
     get_footer();

@@ -473,6 +473,11 @@ header {
 	.slick-slide {
 		height: auto;
 	}
+	.anwalt-grid {
+		display: grid;
+		grid-gap: 2rem;
+		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	}
 	.anwalt {
 		text-decoration: none;
 		transition: all 0.3s ease;
