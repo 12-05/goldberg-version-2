@@ -56,7 +56,7 @@ get_header();
             
 
             <div class="sidebar">
-                <?php get_sidebar();?>
+                <?php dynamic_sidebar('goldsidebar');?>
             </div>
 			<!-- The pagination component -->
 

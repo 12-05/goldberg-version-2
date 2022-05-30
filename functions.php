@@ -10,7 +10,7 @@
             add_action('acf/init', array($this, 'register_options_page'));
             add_filter( 'show_admin_bar', '__return_false' );
             add_action( 'after_setup_theme', array($this, 'add_editor_styles'));
-
+            add_action('widgets_init', array($this, 'register_side_bar'));
             $this->load_inc();  
         }
 
@@ -68,6 +68,18 @@
             add_theme_support( 'editor-styles' ); // if you don't add this line, your stylesheet won't be added
 
             add_editor_style( get_template_directory_uri().'/assets/css/compiled/style.css' ); // tries to include style-editor.css directly from your theme folder
+        }
+
+        public function register_side_bar() {
+            register_sidebar( array(
+                'name'          => __( 'Sidebar2', 'goldberg' ),
+                'id'            => 'goldsidebar',
+                'description'   => __( 'Add widgets here to appear in your sidebar.', 'goldberg' ),
+                'before_widget' => '<section id="%1$s" class="widget %2$s">',
+                'after_widget'  => '</section>',
+                'before_title'  => '<h2 class="widget-title">',
+                'after_title'   => '</h2>',
+            ) );
         }
 
 
