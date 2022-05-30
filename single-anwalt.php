@@ -52,7 +52,7 @@
                  
                 </div>
                 <div class="anwalt-hero-bild">
-                        <?php if(get_field('bild_vorschau')) {?><img src="<?php the_field('bild');?>" alt="<?php the_title();?>" /><?php } ?>
+                        <?php if(get_field('bild')) {?><img src="<?php the_field('bild');?>" alt="<?php the_title();?>" /><?php } ?>
                     </div>
             </div>
         </section>
