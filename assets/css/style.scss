@@ -400,6 +400,58 @@ p {
 	}
 }
 
+.block-video {
+	min-height: 70vh;
+	background-size: cover;
+	display: flex;
+	align-items: flex-end;
+	position: relative;
+	overflow: hidden;
+	&:after {
+		position: absolute;
+		content: "";
+		background-color: rgba(0, 0, 0, 0.2);
+		height: 100%;
+		width: 100%;
+		top: 0;
+		left: 0;
+	}
+	video {
+		z-index: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		right: 0;
+		bottom: 0;
+		min-width: 100%;
+		min-height: 100%;
+		transform: translateX(-50%) translateY(-50%);
+	}
+
+	.wrapped {
+		width: 100%;
+		margin-bottom: 8rem;
+		h1 {
+			color: #fff;
+			font-size: 4rem;
+			position: relative;
+			z-index: 9;
+			@media (max-width: $mobile) {
+				font-size: 3rem;
+			}
+			&:after {
+				content: "";
+				display: block;
+				height: 10px;
+				width: 50px;
+				background: $blue;
+				bottom: -20px;
+				position: absolute;
+			}
+		}
+	}
+}
+
 .block-rechtsgebiete {
 	@include sectionPad();
 	h2 {
@@ -668,6 +720,8 @@ p {
 			text-decoration: none;
 			color: $blue;
 		}
+	}
+	.read-more-button {
 	}
 }
 

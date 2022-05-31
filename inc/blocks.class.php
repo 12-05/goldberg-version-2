@@ -99,6 +99,23 @@
                 'align'        => false,
                 ),
             ));
+
+            // create block with name video 
+            acf_register_block_type(array(
+                'name'              => 'Goldberg Video',
+                'title'             => __('Goldberg Video'),
+                'description'       => __('Video für Goldberg.'),
+                'render_template'   => get_template_directory().'/inc/blocks/video.php',
+                'category'          => 'goldberg',
+                'icon'              => 'admin-comments',
+                'align'           => 'full',
+                'supports'        => array(
+                'align'        => array('full'),
+                'align'        => false,
+                ),
+            ));
+
+           
         }
     }
 

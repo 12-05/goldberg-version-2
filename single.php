@@ -22,8 +22,8 @@ get_header();
 <div class="goldberg-news-wrapper" id="index-wrapper">
 
 	<div class="news-container wrapped" id="content" tabindex="-1">
-
-
+    <?php 
+    
 			<!-- Do the left sidebar check and opens the primary div -->
 
 			<main class="site-main" id="main">

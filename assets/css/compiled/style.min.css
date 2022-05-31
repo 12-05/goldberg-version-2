@@ -54,6 +54,12 @@ p{font-size:1rem;margin-top:0}
 .block-hero .wrapped{width:100%;margin-bottom:8rem}
 .block-hero .wrapped h1{color:#fff;font-size:4rem;position:relative;z-index:9}
 .block-hero .wrapped h1:after{content:"";display:block;height:10px;width:50px;background:#163966;bottom:-20px;position:absolute}
+.block-video{min-height:70vh;background-size:cover;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;position:relative;overflow:hidden}
+.block-video:after{position:absolute;content:"";background-color:rgba(0,0,0,0.2);height:100%;width:100%;top:0;left:0}
+.block-video video{z-index:0;position:absolute;top:50%;left:50%;right:0;bottom:0;min-width:100%;min-height:100%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%)}
+.block-video .wrapped{width:100%;margin-bottom:8rem}
+.block-video .wrapped h1{color:#fff;font-size:4rem;position:relative;z-index:9}
+.block-video .wrapped h1:after{content:"";display:block;height:10px;width:50px;background:#163966;bottom:-20px;position:absolute}
 .block-rechtsgebiete{padding-top:8rem;padding-bottom:8rem}
 .block-rechtsgebiete h2{margin-bottom:3rem;text-align:center}
 .block-rechtsgebiete .grid{grid-template-columns:repeat(auto-fit,minmax(300px,1fr));display:grid;grid-gap:2rem}
@@ -116,6 +122,7 @@ h2{font-size:1.5rem}
 .block-text.headline-links{grid-gap:0;grid-template-columns:1fr}
 .block-text{grid-gap:0;grid-template-columns:1fr}
 .block-hero .wrapped h1{font-size:3rem}
+.block-video .wrapped h1{font-size:3rem}
 .block-rechtsgebiete{padding-top:3rem;padding-bottom:3rem}
 .block-anwaelte{padding-top:3rem;padding-bottom:3rem}
 .block-news{padding-top:3rem;padding-bottom:3rem}
