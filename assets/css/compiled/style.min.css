@@ -116,6 +116,7 @@ p{font-size:1rem;margin-top:0}
 .news-container .nav-links{max-width:400px;margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
 .news-container .nav-links a{text-decoration:none;color:#163966}
 .news-container .nav-links .page-numbers{background:#eee;padding:.5rem .25rem}
+.goldberg-news-wrapper h2{font-size:32px}
 .screen-reader-text{display:none}
 .sidebar{padding-bottom:50px}
 .sidebar h4{color:#163966;font-family:"Roboto Condensed",sans-serif;font-size:1.5rem;margin:0;margin-bottom:.5rem}
