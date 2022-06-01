@@ -810,7 +810,11 @@ p {
 
 .goldberg-news-wrapper {
 	h1 {
-		font-size: 4rem;
+		font-size: 3rem;
+		a {
+			text-decoration: none;
+			color: $blue;
+		}
 	}
 	h2 {
 		font-size: 2rem;
