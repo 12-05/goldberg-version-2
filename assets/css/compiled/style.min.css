@@ -116,7 +116,7 @@ p{font-size:1rem;margin-top:0}
 .news-container .nav-links{max-width:400px;margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
 .news-container .nav-links a{text-decoration:none;color:#163966}
 .news-container .nav-links .page-numbers{background:#eee;padding:.5rem .25rem}
-.goldberg-news-wrapper h1{font-size:3rem}
+.goldberg-news-wrapper h1{font-size:3rem;margin-bottom:2rem}
 .goldberg-news-wrapper h1 a{text-decoration:none;color:#163966}
 .goldberg-news-wrapper h2{font-size:2rem}
 .screen-reader-text{display:none}
