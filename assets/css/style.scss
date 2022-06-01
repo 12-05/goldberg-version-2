@@ -81,7 +81,6 @@ $mobile: 768px;
 }
 
 body {
-	height: 100%;
 	background: #fff;
 	margin: 0;
 	font-family: "Roboto", "sans-serif";
@@ -142,6 +141,11 @@ p {
 	&.small {
 		max-width: 40rem;
 	}
+}
+
+.wp-block-columns {
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .wp-block {
@@ -306,7 +310,7 @@ p {
 		position: fixed;
 		top: 0;
 		right: 0;
-		bottom: 0;
+		height: 100vh;
 		transform: translateX(100%);
 		width: 30vw;
 		background: $blue;
