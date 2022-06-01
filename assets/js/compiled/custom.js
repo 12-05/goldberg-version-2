@@ -12,7 +12,7 @@ jQuery(document).ready(function ($) {
   });
   $("li.menu-item-has-children > a").click(function (e) {
     e.preventDefault();
-    $(this).parent().find(".sub-menu").toggle();
+    $(this).parent().find(".sub-menu").slideToggle(100);
   }); // fade block on sroll
 
   $(window).load(function () {
