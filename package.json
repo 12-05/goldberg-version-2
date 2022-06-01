@@ -44,6 +44,6 @@
     "translate": "gulp translate",
     "styles-rtl": "gulp stylesRTL",
     "cache-clear": "gulp clearCache",
-    "push": "git add . && git commit -m \"Update\" && git push"
+    "push": "git add . && git commit -m \"Update\" && git push origin master"
   }
 }
