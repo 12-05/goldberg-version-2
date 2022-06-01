@@ -110,7 +110,7 @@ p{font-size:1rem;margin-top:0}
 .goldberg-post h2 a{text-decoration:none;color:#163966}
 .goldberg-post .article-link{text-decoration:none;color:#163966;display:block;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-transition:all .3s ease;transition:all .3s ease}
 .goldberg-post .article-link:hover svg{-webkit-transition:all .3s ease;transition:all .3s ease;-webkit-transform:translateX(1rem);transform:translateX(1rem)}
-.news-container{display:grid;grid-template-columns:3fr 1fr;padding-bottom:5rem}
+.news-container{display:grid;grid-template-columns:3fr 1fr;padding-bottom:5rem;grid-gap:2rem;max-width:60rem}
 .news-container .sidebar{float:right}
 .news-container .entry-meta{color:#ccc;font-size:12px}
 .news-container .nav-links{max-width:400px;margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
@@ -151,4 +151,5 @@ h2{font-size:1.5rem}
 .anwalt-profil .anwalt-hero .wrapped{grid-template-columns:1fr}
 .anwalt-profil .anwalt-hero .wrapped .anwalt-hero-content{padding-top:3rem;padding-bottom:3rem}
 .anwalt-profil .anwalt-hero .wrapped .anwalt-hero-content h1{font-size:2rem}
+.news-container{grid-template-columns:1fr}
 }

@@ -783,6 +783,12 @@ p {
 	display: grid;
 	grid-template-columns: 3fr 1fr;
 	padding-bottom: 5rem;
+	grid-gap: 2rem;
+	max-width: 60rem;
+	// make 1fr on mobile
+	@media (max-width: $mobile) {
+		grid-template-columns: 1fr;
+	}
 	.sidebar {
 		float: right;
 	}

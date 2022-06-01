@@ -9,7 +9,7 @@
 defined( 'ABSPATH' ) || exit;
 ?>
 
-<article <?php post_class('wrapped goldberg-post'); ?> id="post-<?php the_ID(); ?>">
+<article <?php post_class(' goldberg-post'); ?> id="post-<?php the_ID(); ?>">
 
 	<header class="entry-header">
     <?php if ( 'post' === get_post_type() ) : ?>
