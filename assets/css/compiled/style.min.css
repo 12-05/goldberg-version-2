@@ -30,7 +30,8 @@ p{font-size:1rem;margin-top:0}
 .header .menu-toggle img:hover{-webkit-transform:scale(1.1);transform:scale(1.1);-webkit-transition:all .3s ease;transition:all .3s ease}
 .header .toolbar{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 .header .toolbar .phone{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
-.header .toolbar .phone .phone-label{margin-right:1rem;display:inline-block;color:#163966;font-family:"Roboto Condensed"}
+.header .toolbar .phone .phone-label{margin-right:1rem;display:inline-block;color:#163966;font-family:"Roboto Condensed";text-decoration:none}
+.header .toolbar .phone .phone-label:hover{text-decoration:underline}
 .header .toolbar .language-menu ul{display:-webkit-box;display:-ms-flexbox;display:flex;margin:0;padding:0;margin:0 2rem}
 .header .toolbar .language-menu ul li{list-style:none;display:inline-block;padding:1rem;color:#163966}
 .header .nav{z-index:10;position:fixed;top:0;right:0;height:100vh;-webkit-transform:translateX(100%);transform:translateX(100%);width:30vw;background:#163966;-webkit-transition:all .3s ease;transition:all .3s ease;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
@@ -133,6 +134,7 @@ p{font-size:1rem;margin-top:0}
 .sidebar .wp-block-archives-dropdown label{display:none}
 .sidebar .wp-block-archives-dropdown select{padding-right:2rem;background-color:#eee;padding:.5rem 1rem;border-radius:0;border:0;-webkit-appearance:none;-moz-appearance:none;appearance:none;font-family:"Roboto","sans-serif"}
 .sidebar .wp-block-archives-dropdown select:after{content:"";height:20px;width:20px;background-image:url("../../images/arrow-down.svg");background-color:transparent;background-size:contain;background-position:center;background-repeat:no-repeat;display:inline-block;float:right;margin-left:.5rem}
+.block{opacity:0}
 @media(max-width:768px){body.nav-open{-webkit-transform:translateX(-70vw);transform:translateX(-70vw)}
 h2{font-size:1.5rem}
 .header .toolbar .phone{display:none}

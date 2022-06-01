@@ -280,6 +280,10 @@ p {
 				display: inline-block;
 				color: $blue;
 				font-family: "Roboto Condensed";
+				text-decoration: none;
+				&:hover {
+					text-decoration: underline;
+				}
 				@media (max-width: $mobile) {
 					display: none;
 				}
@@ -918,4 +922,8 @@ p {
 			}
 		}
 	}
+}
+
+.block {
+	opacity: 0;
 }

@@ -16,7 +16,13 @@
             </div>
             <div class="toolbar">
                 <div class="phone">
-                    <span class="phone-label"><?php echo get_field('telefon', 'option');?></span>                  
+                    <a href="<?php // get telefon number and remove all symbols
+                
+                    $phone = get_field('telefon', 'option');
+                    $phone = preg_replace('/[^0-9]/', '', $phone);
+                    echo 'tel:'.$phone;
+                    ?>
+                    " class="phone-label"><?php echo get_field('telefon', 'option');?></a>                  
                     <img src="<?php echoImg('phone.svg');?>" alt="Telefon" />
                 </div>
                 <div class="language-menu">
