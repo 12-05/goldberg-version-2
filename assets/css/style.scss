@@ -782,6 +782,7 @@ p {
 .news-container {
 	display: grid;
 	grid-template-columns: 3fr 1fr;
+	padding-bottom: 5rem;
 	.sidebar {
 		float: right;
 	}
@@ -790,11 +791,17 @@ p {
 		font-size: 12px;
 	}
 	.nav-links {
+		max-width: 400px;
+		margin: 0 auto;
 		display: flex;
 		justify-content: space-between;
 		a {
 			text-decoration: none;
 			color: $blue;
+		}
+		.page-numbers  {
+			background: #eee;
+			padding: 0.5rem 0.25rem;
 		}
 	}
 	.read-more-button {
