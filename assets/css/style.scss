@@ -697,7 +697,12 @@ p {
 	.anwalt-hero {
 		background-size: cover;
 		background-position: center;
-		background-image: url("../../images/anwalt-bg.png");
+		background: rgb(231, 227, 219);
+		background: radial-gradient(
+			circle,
+			rgba(231, 227, 219, 1) 0%,
+			rgba(190, 187, 183, 1) 100%
+		);
 		.wrapped {
 			display: grid;
 			grid-template-columns: 2fr 2fr;
