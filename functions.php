@@ -11,6 +11,7 @@
             add_filter( 'show_admin_bar', '__return_false' );
             add_action( 'after_setup_theme', array($this, 'add_editor_styles'));
             add_action('widgets_init', array($this, 'register_side_bar'));
+            add_action( 'add_editor_scripts', array($this, 'load_editors_scripts'));
             $this->load_inc();  
         }
 
@@ -68,6 +69,11 @@
             add_theme_support( 'editor-styles' ); // if you don't add this line, your stylesheet won't be added
 
             add_editor_style( get_template_directory_uri().'/assets/css/compiled/style.css' ); // tries to include style-editor.css directly from your theme folder
+        }
+
+        public function load_editors_scripts() {
+            wp_enqueue_script( 'custom', get_template_directory_uri() . '/assets/js/compiled/custom.js', array('jquery') );
+            wp_enqueue_script( 'slick', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js', array('jquery') );
         }
 
         public function register_side_bar() {
