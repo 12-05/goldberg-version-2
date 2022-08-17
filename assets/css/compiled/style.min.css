@@ -135,6 +135,7 @@ p{font-size:1rem;margin-top:0}
 .sidebar .wp-block-archives-dropdown select{padding-right:2rem;background-color:#eee;padding:.5rem 1rem;border-radius:0;border:0;-webkit-appearance:none;-moz-appearance:none;appearance:none;font-family:"Roboto","sans-serif"}
 .sidebar .wp-block-archives-dropdown select:after{content:"";height:20px;width:20px;background-image:url("../../images/arrow-down.svg");background-color:transparent;background-size:contain;background-position:center;background-repeat:no-repeat;display:inline-block;float:right;margin-left:.5rem}
 .wp-admin .block{opacity:1 !important}
+.editor-styles-wrapper .block{opacity:1 !important}
 @media(max-width:768px){body.nav-open{-webkit-transform:translateX(-70vw);transform:translateX(-70vw)}
 h2{font-size:1.5rem}
 .header .toolbar .phone{display:none}
