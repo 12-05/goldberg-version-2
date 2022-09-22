@@ -971,6 +971,10 @@ p {
 			font-weight: bold;
 			border-radius: 3px;
 			margin-top: 1rem;
+			text-decoration: none;
+			&:hover {
+				background: #000;
+			}
 		}
 	}
 }
