@@ -978,3 +978,32 @@ p {
 		}
 	}
 }
+
+.block-buttongroup {
+	@include sectionPad();
+	h2 {
+		text-align: center;
+		padding-bottom: 3rem;
+	}
+	.group {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 2rem;
+		a {
+			text-decoration: none;
+			font-size: 1.5rem;
+			font-weight: normal;
+			background: #163966;
+			color: #fff;
+			padding: 2rem;
+			font-family: "Roboto Condensed", sans-serif;
+
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			&:hover {
+				background: #666;
+			}
+		}
+	}
+}

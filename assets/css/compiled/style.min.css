@@ -144,6 +144,11 @@ p{font-size:1rem;margin-top:0}
 .block-standorte .office .image{width:100%;height:300px;-o-object-fit:cover;object-fit:cover;margin-bottom:2rem}
 .block-standorte .office .so-button{background:#163966;color:#fff;padding:.5rem 1rem;font-weight:bold;border-radius:3px;margin-top:1rem;text-decoration:none}
 .block-standorte .office .so-button:hover{background:#000}
+.block-buttongroup{padding-top:8rem;padding-bottom:8rem}
+.block-buttongroup h2{text-align:center;padding-bottom:3rem}
+.block-buttongroup .group{display:grid;grid-template-columns:1fr 1fr;grid-gap:2rem}
+.block-buttongroup .group a{text-decoration:none;font-size:1.5rem;font-weight:normal;background:#163966;color:#fff;padding:2rem;font-family:"Roboto Condensed",sans-serif;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.block-buttongroup .group a:hover{background:#666}
 @media(max-width:768px){body.nav-open{-webkit-transform:translateX(-70vw);transform:translateX(-70vw)}
 h2{font-size:1.5rem}
 .header .toolbar .phone{display:none}
@@ -165,4 +170,5 @@ h2{font-size:1.5rem}
 .anwalt-profil .anwalt-hero .wrapped .anwalt-hero-content h1{font-size:2rem}
 .news-container{grid-template-columns:1fr}
 .block-standorte{padding-top:3rem;padding-bottom:3rem}
+.block-buttongroup{padding-top:3rem;padding-bottom:3rem}
 }

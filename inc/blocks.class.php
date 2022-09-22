@@ -122,7 +122,21 @@
                 'render_template'   => get_template_directory().'/inc/blocks/standorte.php',
                 'category'          => 'goldberg',
                 'icon'              => 'admin-comments',
-                'align'           => 'full',
+                'align'           => 'full',    
+                'supports'        => array(
+                'align'        => array('full'),
+                'align'        => false,
+                ),
+            ));
+
+            acf_register_block_type(array(
+                'name'              => 'Goldberg Button Group',
+                'title'             => __('Goldberg Button Group'),
+                'description'       => __('Goldberg Button Group.'),
+                'render_template'   => get_template_directory().'/inc/blocks/buttongroup.php',
+                'category'          => 'goldberg',
+                'icon'              => 'admin-comments',
+                'align'           => 'full',    
                 'supports'        => array(
                 'align'        => array('full'),
                 'align'        => false,
