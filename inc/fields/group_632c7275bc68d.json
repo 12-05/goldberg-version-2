@@ -22,6 +22,25 @@
             "append": ""
         },
         {
+            "key": "field_632c779906687",
+            "label": "Text",
+            "name": "text",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
             "key": "field_632c729075c51",
             "label": "Links",
             "name": "links",
@@ -34,7 +53,12 @@
                 "class": "",
                 "id": ""
             },
-            "post_type": "",
+            "post_type": [
+                "page",
+                "office",
+                "anwalt",
+                "rechtsgebiet"
+            ],
             "taxonomy": "",
             "filters": [
                 "search",
@@ -65,5 +89,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1663857371
+    "modified": 1663858591
 }
