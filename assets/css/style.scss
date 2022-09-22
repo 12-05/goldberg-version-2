@@ -936,3 +936,33 @@ p {
 .editor-styles-wrapper .block {
 	opacity: 1 !important;
 }
+
+.block-standorte {
+	@include sectionPad();
+
+	h2 {
+		margin-bottom: 4rem;
+		text-align: center;
+	}
+	h3 {
+		font-size: 1.5rem;
+		margin-bottom: 1rem;
+	}
+	.standort-grid {
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		display: grid;
+		grid-gap: 2rem;
+	}
+	a.button {
+		background: blue;
+	}
+
+	.office {
+		.image {
+			width: 100%;
+			height: 300px;
+			object-fit: cover;
+			margin-bottom: 2rem;
+		}
+	}
+}

@@ -49,8 +49,12 @@
                 <nav class="social-nav">
                     <?php   $icons = get_field('social', 'option');
                             if($icons) {
-                                foreach($icons as $icon) {?>
-                                    <a href="<?php echo $icon['link'];?>"><img src="<?php echo $icon['icon'];?>" alt="icon" /></a>
+                                foreach($icons as $icon) {
+                                    if(!isset($icon['icon'])) {
+                                        $icon['icon'] = "";
+                                    }
+                                    ?>
+                                    <a href="<?php echo $icon['link']  && "";?>"><img src="<?php echo $icon['icon'] or "";?>" alt="icon" /></a>
                                 <?php 
                                 }
                             }

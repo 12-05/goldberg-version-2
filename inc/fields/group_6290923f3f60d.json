@@ -115,6 +115,49 @@
             "prepend": "",
             "append": "",
             "maxlength": ""
+        },
+        {
+            "key": "field_632c61aefe6e6",
+            "label": "Beschreibung",
+            "name": "beschreibung",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "delay": 0,
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1
+        },
+        {
+            "key": "field_632c61d27756c",
+            "label": "Header Bild",
+            "name": "header_bild",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
         }
     ],
     "location": [
@@ -135,5 +178,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1653641861
+    "modified": 1663853025
 }

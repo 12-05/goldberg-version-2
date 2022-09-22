@@ -115,6 +115,21 @@
                 ),
             ));
 
+            acf_register_block_type(array(
+                'name'              => 'Goldberg Standorte',
+                'title'             => __('Goldberg Standorte'),
+                'description'       => __('Standorte für Goldberg.'),
+                'render_template'   => get_template_directory().'/inc/blocks/standorte.php',
+                'category'          => 'goldberg',
+                'icon'              => 'admin-comments',
+                'align'           => 'full',
+                'supports'        => array(
+                'align'        => array('full'),
+                'align'        => false,
+                ),
+            ));
+
+
            
         }
     }
