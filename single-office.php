@@ -1,6 +1,6 @@
 <?php 
     get_header();?>
-    <section class="block block-hero" style="background-image:url(<?php the_field('bild');?>)">
+    <section class="block block-hero" style="background-image:url(<?php the_field('header_bild');?>)">
     <div class="wrapped">
         <h1><?php echo get_the_title();?></h1>
     </div>
