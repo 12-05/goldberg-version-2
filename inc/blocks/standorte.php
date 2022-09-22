@@ -22,6 +22,7 @@
                             <p>
                                 E-Mail: <a href="mailto:<?php echo get_field('email', $id);?>"><?php echo get_field('email', $id);?></a>
                             </p>
+                            <a href="<?php echo get_permalink($id);?>" class="so-button">Mehr erfahren</a>
                         </div>
                     <?php 
                 }

@@ -142,6 +142,7 @@ p{font-size:1rem;margin-top:0}
 .block-standorte .standort-grid{grid-template-columns:repeat(auto-fit,minmax(300px,1fr));display:grid;grid-gap:2rem}
 .block-standorte a.button{background:blue}
 .block-standorte .office .image{width:100%;height:300px;-o-object-fit:cover;object-fit:cover;margin-bottom:2rem}
+.block-standorte .office .so-button{background:#163966;color:#fff;padding:.5rem 1rem;font-weight:bold;border-radius:3px;margin-top:1rem}
 @media(max-width:768px){body.nav-open{-webkit-transform:translateX(-70vw);transform:translateX(-70vw)}
 h2{font-size:1.5rem}
 .header .toolbar .phone{display:none}
