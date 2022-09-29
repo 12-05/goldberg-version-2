@@ -23,6 +23,11 @@
                             <p>
                                 E-Mail: <a href="mailto:<?php echo get_field('email');?>"><?php echo get_field('email');?></a>
                             </p>
+                            <?php 
+                             $add = get_field('strasse').' '.get_field('postleitzahl').' '.get_field('stadt');
+                             $add = urlencode($add);
+                             ?>
+                            <a href="http://maps.google.com/maps?q=<?php $add; ?>">Routenplaner</a>
 </div>
     </div>
     

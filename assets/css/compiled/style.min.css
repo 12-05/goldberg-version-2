@@ -56,7 +56,7 @@ body{width:100vw;overflow-x:hidden}
 .footer .footer-bottom .wrapped .footer-nav ul li{margin-right:2rem}
 .footer .footer-bottom .wrapped .footer-nav ul li a{font-size:.75rem;text-transform:uppercase;color:#fff;text-decoration:none;opacity:.5}
 .footer .footer-bottom .wrapped .social-nav img{height:1.5rem;width:1.5rem;opacity:.5;margin-left:.25rem}
-.block-text{padding-top:6rem;padding-bottom:6rem}
+.block-text{padding-top:3rem;padding-bottom:3rem}
 .block-text h2{margin-bottom:1.5rem}
 .block-text.headline-links{display:grid;grid-template-columns:1fr 2fr;grid-gap:4rem}
 .block-hero{min-height:70vh;background-size:cover;background-position:center;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}
@@ -69,7 +69,7 @@ body{width:100vw;overflow-x:hidden}
 .block-video .wrapped{width:100%;margin-bottom:8rem}
 .block-video .wrapped h1{color:#fff;font-size:3rem;position:relative;z-index:9}
 .block-video .wrapped h1:after{content:"";display:block;height:10px;width:50px;background:#163966;bottom:-20px;position:absolute}
-.block-rechtsgebiete{padding-top:6rem;padding-bottom:6rem}
+.block-rechtsgebiete{padding-top:3rem;padding-bottom:3rem}
 .block-rechtsgebiete h2{margin-bottom:3rem;text-align:center}
 .block-rechtsgebiete .grid{grid-template-columns:repeat(auto-fit,minmax(300px,1fr));display:grid;grid-gap:2rem}
 .block-rechtsgebiete .grid .rechtsgebiet{min-width:0;height:164px;background:#eee;display:-webkit-box;display:-ms-flexbox;display:flex;padding:2rem;color:#163966;max-width:100%;text-decoration:none;-webkit-box-sizing:content-box;box-sizing:content-box;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;-webkit-transition:all .3s ease;transition:all .3s ease;overflow:hidden;position:relative}
@@ -78,7 +78,7 @@ body{width:100vw;overflow-x:hidden}
 .block-rechtsgebiete .grid .rechtsgebiet .text{-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;width:100%}
 .block-rechtsgebiete .grid .rechtsgebiet .text svg{right:2rem;position:absolute}
 .block-bild img{width:100%}
-.block-anwaelte{padding-top:6rem;padding-bottom:6rem}
+.block-anwaelte{padding-top:3rem;padding-bottom:3rem}
 .block-anwaelte h2{text-align:center}
 .block-anwaelte .slick-slide{margin:0 27px}
 .block-anwaelte .slick-slider{margin-top:3rem;margin-bottom:3rem}
@@ -95,7 +95,7 @@ body{width:100vw;overflow-x:hidden}
 .block-anwaelte .anwalt .text:after{content:"";height:20px;width:20px;background-image:url("../../images/arrow.svg");background-color:red;display:inline-block;float:right;background-color:transparent;background-size:contain;background-position:center;background-repeat:no-repeat}
 .block-anwaelte .anwalt .text .name{font-size:2rem;font-family:"Roboto Condensed","sans-serif";color:#163966;display:block}
 .block-anwaelte .anwalt .text .titel{color:#707070;font-size:16px}
-.block-news{padding-top:6rem;padding-bottom:6rem;background:#eee}
+.block-news{padding-top:3rem;padding-bottom:3rem;background:#eee}
 .block-news .wrapped{display:grid;grid-template-columns:1fr 3fr}
 .block-news .wrapped .news-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));grid-gap:2rem}
 .block-news .wrapped .news-list .post{display:block;margin-bottom:2rem;color:#707070;text-decoration:none;-webkit-transition:all .3s ease;transition:all .3s ease}
@@ -106,7 +106,7 @@ body{width:100vw;overflow-x:hidden}
 .anwalt-profil .anwalt-hero .wrapped{display:grid;grid-template-columns:2fr 2fr}
 .anwalt-profil .anwalt-hero .wrapped .anwalt-hero-bild{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}
 .anwalt-profil .anwalt-hero .wrapped .anwalt-hero-bild img{width:100%}
-.anwalt-profil .anwalt-hero .wrapped .anwalt-hero-content{padding-top:6rem;padding-bottom:6rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-family:"Roboto Condensed",sans-serif;font-size:20px}
+.anwalt-profil .anwalt-hero .wrapped .anwalt-hero-content{padding-top:3rem;padding-bottom:3rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-family:"Roboto Condensed",sans-serif;font-size:20px}
 .anwalt-profil .anwalt-hero .wrapped .anwalt-hero-content h1{font-size:3rem}
 .anwalt-profil .anwalt-hero .wrapped .anwalt-hero-content .group{margin-bottom:2rem}
 .anwalt-profil .anwalt-hero .wrapped .anwalt-hero-content .group .label{font-family:"Roboto Condensed",sans-serif;color:#163966;font-weight:bold}
@@ -141,7 +141,7 @@ body{width:100vw;overflow-x:hidden}
 .sidebar .wp-block-archives-dropdown select:after{content:"";height:20px;width:20px;background-image:url("../../images/arrow-down.svg");background-color:transparent;background-size:contain;background-position:center;background-repeat:no-repeat;display:inline-block;float:right;margin-left:.5rem}
 .wp-admin .block{opacity:1 !important}
 .editor-styles-wrapper .block{opacity:1 !important}
-.block-standorte{padding-top:6rem;padding-bottom:6rem}
+.block-standorte{padding-top:3rem;padding-bottom:3rem}
 .block-standorte h2{margin-bottom:4rem;text-align:center}
 .block-standorte h3{font-size:1.5rem;margin-bottom:1rem}
 .block-standorte .standort-grid{grid-template-columns:repeat(auto-fit,minmax(300px,1fr));display:grid;grid-gap:2rem}
@@ -150,7 +150,7 @@ body{width:100vw;overflow-x:hidden}
 .block-standorte .office .image{width:100%;height:300px;-o-object-fit:cover;object-fit:cover;margin-bottom:2rem}
 .block-standorte .office .so-button{background:#163966;color:#fff;padding:.5rem 1rem;font-weight:bold;border-radius:3px;margin-top:1rem;text-decoration:none}
 .block-standorte .office .so-button:hover{background:#000}
-.block-buttongroup{padding-top:6rem;padding-bottom:6rem}
+.block-buttongroup{padding-top:3rem;padding-bottom:3rem}
 .block-buttongroup h2{text-align:center;padding-bottom:3rem}
 .block-buttongroup .group{display:grid;grid-template-columns:1fr 1fr;grid-gap:2rem}
 .block-buttongroup .group a{text-decoration:none;font-size:1.5rem;font-weight:normal;background:#163966;color:#fff;padding:2rem;font-family:"Roboto Condensed",sans-serif;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
