@@ -174,7 +174,7 @@ body { width: 100vw; overflow-x: hidden; }
 
 .block-rechtsgebiete h2 { margin-bottom: 3rem; text-align: center; }
 
-.block-rechtsgebiete .grid { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); display: grid; grid-gap: 2rem; }
+.block-rechtsgebiete .grid { grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); display: grid; grid-gap: 2rem; }
 
 .block-rechtsgebiete .grid .rechtsgebiet { height: 164px; background: #eeeeee; display: -webkit-box; display: -ms-flexbox; display: flex; padding: 2rem; color: #163966; text-decoration: none; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; -webkit-transition: all 0.3s ease; transition: all 0.3s ease; }
 
