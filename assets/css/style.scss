@@ -156,7 +156,7 @@ body {
 }
 .wp-block-columns,
 .wrapped {
-	max-width: 80rem;
+	max-width: 64rem;
 	margin: 0 auto;
 	padding: 0 2rem;
 	&.small {
@@ -565,18 +565,23 @@ body {
 		text-align: center;
 	}
 	.grid {
-		grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 		display: grid;
 		grid-gap: 2rem;
 		.rechtsgebiet {
+			min-width: 0;
 			height: 164px;
 			background: #eeeeee;
 			display: flex;
 			padding: 2rem;
 			color: $blue;
+			max-width: 100%;
 			text-decoration: none;
+			box-sizing: content-box;
 			align-items: flex-end;
 			transition: all 0.3s ease;
+			overflow: hidden;
+			position: relative;
 			&:hover {
 				background: $blue;
 				color: #fff;
@@ -593,6 +598,10 @@ body {
 				display: flex;
 				justify-content: space-between;
 				width: 100%;
+				svg {
+					right: 2rem;
+					position: absolute;
+				}
 			}
 		}
 	}
@@ -687,14 +696,14 @@ body {
 	background: #eee;
 	.wrapped {
 		display: grid;
-		grid-template-columns: 1fr 2fr;
+		grid-template-columns: 1fr 3fr;
 		// make one column on mobile
 		@media (max-width: $mobile) {
 			grid-template-columns: 1fr;
 		}
 		.news-list {
 			display: grid;
-			grid-template-columns: 1fr 1fr 1fr;
+			grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 			grid-gap: 2rem;
 			.post {
 				display: block;
@@ -1019,6 +1028,9 @@ body {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-gap: 2rem;
+		@media (max-width: $mobile) {
+			grid-template-columns: 1fr;
+		}
 		a {
 			text-decoration: none;
 			font-size: 1.5rem;
