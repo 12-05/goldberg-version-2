@@ -61,13 +61,13 @@ body{width:100vw;overflow-x:hidden}
 .block-text.headline-links{display:grid;grid-template-columns:1fr 2fr;grid-gap:4rem}
 .block-hero{min-height:70vh;background-size:cover;background-position:center;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}
 .block-hero .wrapped{width:100%;margin-bottom:8rem}
-.block-hero .wrapped h1{color:#fff;font-size:4rem;position:relative;z-index:9}
+.block-hero .wrapped h1{color:#fff;font-size:3rem;position:relative;z-index:9}
 .block-hero .wrapped h1:after{content:"";display:block;height:10px;width:50px;background:#163966;bottom:-20px;position:absolute}
 .block-video{min-height:70vh;background-size:cover;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;position:relative;overflow:hidden}
 .block-video:after{position:absolute;content:"";background-color:rgba(0,0,0,0.2);height:100%;width:100%;top:0;left:0}
 .block-video video{z-index:0;position:absolute;top:50%;left:50%;right:0;bottom:0;min-width:100%;min-height:100%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%)}
 .block-video .wrapped{width:100%;margin-bottom:8rem}
-.block-video .wrapped h1{color:#fff;font-size:4rem;position:relative;z-index:9}
+.block-video .wrapped h1{color:#fff;font-size:3rem;position:relative;z-index:9}
 .block-video .wrapped h1:after{content:"";display:block;height:10px;width:50px;background:#163966;bottom:-20px;position:absolute}
 .block-rechtsgebiete{padding-top:8rem;padding-bottom:8rem}
 .block-rechtsgebiete h2{margin-bottom:3rem;text-align:center}
@@ -105,7 +105,7 @@ body{width:100vw;overflow-x:hidden}
 .anwalt-profil .anwalt-hero .wrapped .anwalt-hero-bild{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}
 .anwalt-profil .anwalt-hero .wrapped .anwalt-hero-bild img{width:100%}
 .anwalt-profil .anwalt-hero .wrapped .anwalt-hero-content{padding-top:8rem;padding-bottom:8rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-family:"Roboto Condensed",sans-serif;font-size:20px}
-.anwalt-profil .anwalt-hero .wrapped .anwalt-hero-content h1{font-size:4rem}
+.anwalt-profil .anwalt-hero .wrapped .anwalt-hero-content h1{font-size:3rem}
 .anwalt-profil .anwalt-hero .wrapped .anwalt-hero-content .group{margin-bottom:2rem}
 .anwalt-profil .anwalt-hero .wrapped .anwalt-hero-content .group .label{font-family:"Roboto Condensed",sans-serif;color:#163966;font-weight:bold}
 .anwalt-profil .anwalt-hero .wrapped .anwalt-hero-content .group .standort{font-family:"Roboto Condensed",sans-serif;color:#163966;font-weight:bold;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
@@ -166,15 +166,15 @@ h2{font-size:1.5rem}
 .block-text{padding-top:3rem;padding-bottom:3rem}
 .block-text.headline-links{grid-gap:0;grid-template-columns:1fr}
 .block-text{grid-gap:0;grid-template-columns:1fr}
-.block-hero .wrapped h1{font-size:3rem}
-.block-video .wrapped h1{font-size:3rem}
+.block-hero .wrapped h1{font-size:2rem}
+.block-video .wrapped h1{font-size:2rem}
 .block-rechtsgebiete{padding-top:3rem;padding-bottom:3rem}
 .block-anwaelte{padding-top:3rem;padding-bottom:3rem}
 .block-news{padding-top:3rem;padding-bottom:3rem}
 .block-news .wrapped{grid-template-columns:1fr}
 .anwalt-profil .anwalt-hero .wrapped{grid-template-columns:1fr}
 .anwalt-profil .anwalt-hero .wrapped .anwalt-hero-content{padding-top:3rem;padding-bottom:3rem}
-.anwalt-profil .anwalt-hero .wrapped .anwalt-hero-content h1{font-size:2rem}
+.anwalt-profil .anwalt-hero .wrapped .anwalt-hero-content h1{font-size:1.5rem}
 .news-container{grid-template-columns:1fr}
 .block-standorte{padding-top:3rem;padding-bottom:3rem}
 .block-buttongroup{padding-top:3rem;padding-bottom:3rem}

@@ -487,11 +487,11 @@ body {
 		margin-bottom: 8rem;
 		h1 {
 			color: #fff;
-			font-size: 4rem;
+			font-size: 3rem;
 			position: relative;
 			z-index: 9;
 			@media (max-width: $mobile) {
-				font-size: 3rem;
+				font-size: 2rem;
 			}
 			&:after {
 				content: "";
@@ -539,11 +539,11 @@ body {
 		margin-bottom: 8rem;
 		h1 {
 			color: #fff;
-			font-size: 4rem;
+			font-size: 3rem;
 			position: relative;
 			z-index: 9;
 			@media (max-width: $mobile) {
-				font-size: 3rem;
+				font-size: 2rem;
 			}
 			&:after {
 				content: "";
@@ -746,9 +746,9 @@ body {
 				display: flex;
 				align-items: center;
 				h1 {
-					font-size: 4rem;
+					font-size: 3rem;
 					@media (max-width: $mobile) {
-						font-size: 2rem;
+						font-size: 1.5rem;
 					}
 				}
 				font-family: "Roboto Condensed", sans-serif;
