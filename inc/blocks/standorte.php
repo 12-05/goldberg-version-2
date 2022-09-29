@@ -7,7 +7,7 @@
                 foreach($standorte as $id) {
                     ?>
                         <div class="office">
-                            <img  class="image" src="<?php echo get_field('header_bild', $id);?>" alt="<?php echo get_the_title($id);?>" />
+                            <div class="iframe" style="margin-bottom:2rem"><?php the_field('iframe', $id);?></div>
                             <h3><?php echo get_the_title($id);?></h3>
                             <p>
                                 Büro <?php echo get_field('stadt', $id);?><br />
