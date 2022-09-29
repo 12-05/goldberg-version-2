@@ -79,7 +79,10 @@ $mobile: 768px;
 			url("../../fonts/roboto-condensed-v25-latin-700.svg#RobotoCondensed")
 			format("svg"); /* Legacy iOS */
 }
-
+html,
+body {
+	font-size: 20px;
+}
 body {
 	background: #fff;
 	margin: 0;
@@ -116,7 +119,7 @@ h3 {
 }
 
 h2 {
-	font-size: 2.5rem;
+	font-size: 1.8rem;
 	margin-bottom: 1rem;
 	@media (max-width: $mobile) {
 		font-size: 1.5rem;
@@ -704,7 +707,7 @@ body {
 					font-family: "Roboto Condensed";
 				}
 				h3 {
-					font-size: 1.5rem;
+					font-size: 1.2rem;
 					margin-bottom: 1rem;
 				}
 			}
@@ -1026,6 +1029,32 @@ body {
 			justify-content: center;
 			&:hover {
 				background: #666;
+			}
+		}
+	}
+}
+
+.single-office {
+	iframe {
+		border: 0px !important;
+		margin-bottom: 2rem;
+		max-width: 100%;
+	}
+	.office-block {
+		float: right;
+		background: #eee;
+		margin-left: 3rem;
+		margin-top: -10rem;
+		.padded {
+			padding: 2rem;
+		}
+		@media (max-width: $mobile) {
+			float: none;
+			margin: 0;
+			margin-bottom: 2rem;
+
+			iframe {
+				max-width: 100%;
 			}
 		}
 	}
