@@ -12,6 +12,8 @@
             add_action( 'after_setup_theme', array($this, 'add_editor_styles'));
             add_action('widgets_init', array($this, 'register_side_bar'));
             add_action( 'enqueue_block_editor_assets', array($this, 'load_editors_scripts'));
+          
+            add_filter( 'excerpt_length', array($this, 'excerpt_length'), 999 );
             $this->load_inc();  
         }
 
@@ -85,6 +87,10 @@
                 'before_title'  => '<h2 class="widget-title">',
                 'after_title'   => '</h2>',
             ) );
+        }
+
+        public function excerpt_length() {
+            return 20;
         }
 
 

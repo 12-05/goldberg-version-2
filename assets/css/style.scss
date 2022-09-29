@@ -147,11 +147,11 @@ body {
 }
 
 @mixin sectionPad {
-	padding-top: 8rem;
-	padding-bottom: 8rem;
+	padding-top: 6rem;
+	padding-bottom: 6rem;
 	@media (max-width: $mobile) {
-		padding-top: 3rem;
-		padding-bottom: 3rem;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
 	}
 }
 .wp-block-columns,
@@ -684,6 +684,7 @@ body {
 
 .block-news {
 	@include sectionPad();
+	background: #eee;
 	.wrapped {
 		display: grid;
 		grid-template-columns: 1fr 2fr;
@@ -692,6 +693,9 @@ body {
 			grid-template-columns: 1fr;
 		}
 		.news-list {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			grid-gap: 2rem;
 			.post {
 				display: block;
 				margin-bottom: 2rem;
