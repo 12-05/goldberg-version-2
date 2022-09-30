@@ -56,8 +56,9 @@ body{width:100vw;overflow-x:hidden}
 .footer .footer-bottom .wrapped .footer-nav ul li{margin-right:2rem}
 .footer .footer-bottom .wrapped .footer-nav ul li a{font-size:.75rem;text-transform:uppercase;color:#fff;text-decoration:none;opacity:.5}
 .footer .footer-bottom .wrapped .social-nav img{height:1.5rem;width:1.5rem;opacity:.5;margin-left:.25rem}
+a{color:#163966}
 .block-text{padding-top:3rem;padding-bottom:3rem}
-.block-text h2{margin-bottom:1rem;margin-top:1rem}
+.block-text h2{margin-bottom:1rem;margin-top:2rem}
 .block-text.headline-links{display:grid;grid-template-columns:1fr 2fr;grid-gap:4rem}
 .block-text .content p:last-child{margin-bottom:0}
 .block-hero{min-height:70vh;background-size:cover;background-position:center;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}

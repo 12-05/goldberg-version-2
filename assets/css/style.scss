@@ -453,14 +453,16 @@ body {
 		}
 	}
 }
-
+a {
+	color: $blue;
+}
 /// START OF BLOCKS ////
 
 .block-text {
 	@include sectionPad();
 	h2 {
 		margin-bottom: 1rem;
-		margin-top: 1rem;
+		margin-top: 2rem;
 	}
 	&.headline-links {
 		display: grid;
