@@ -455,6 +455,9 @@ body {
 }
 a {
 	color: $blue;
+	&:hover {
+		text-decoration: none;
+	}
 }
 /// START OF BLOCKS ////
 
