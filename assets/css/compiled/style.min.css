@@ -77,6 +77,7 @@ body{width:100vw;overflow-x:hidden}
 .block-rechtsgebiete .grid .rechtsgebiet:hover{background:#163966;color:#fff;-webkit-transition:all .3s ease;transition:all .3s ease}
 .block-rechtsgebiete .grid .rechtsgebiet:hover svg path{-webkit-transition:all .3s ease;transition:all .3s ease;stroke:#fff}
 .block-rechtsgebiete .grid .rechtsgebiet .text{-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;width:100%}
+img.aligncenter{display:block;margin:0 auto}
 .block-bild img{width:100%}
 .block-anwaelte{padding-top:3rem;padding-bottom:3rem}
 .block-anwaelte h2{text-align:center}
