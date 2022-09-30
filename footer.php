@@ -50,7 +50,7 @@
                     <?php   $icons = get_field('social', 'option');
                             if($icons) {
                                 foreach($icons as $icon) { ?>
-                                    <a href="<?php echo $icon['link']  && "";?>"><img src="<?php echo $icon['bild'];?>" alt="icon" /></a>
+                                    <a href="<?php echo $icon['link']  && "";?>"><img src="<?php echo $icon['icon'];?>" alt="icon" /></a>
                                 <?php 
                                 }
                             }
