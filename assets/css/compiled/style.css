@@ -308,7 +308,7 @@ img.aligncenter { display: block; margin: 0 auto; }
 
 .sidebar .wp-block-search__label { display: none; }
 
-.sidebar .wp-block-search__input { width: 200px; display: block; -webkit-appearance: none; -moz-appearance: none; appearance: none; padding: 0.5rem 1rem; border: 1px solid #ccc; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.sidebar .wp-block-search__input { width: 170px; display: block; -webkit-appearance: none; -moz-appearance: none; appearance: none; padding: 0.5rem 1rem; border: 1px solid #ccc; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 .sidebar .wp-block-search__button { background-color: #163966; color: #fff; -webkit-appearance: none; -moz-appearance: none; appearance: none; width: 100%; padding: 0.5rem 1rem; font-family: "Roboto Condensed", sans-serif; font-weight: bold; border: 0px; width: 80px; font-size: 1rem; }
 
