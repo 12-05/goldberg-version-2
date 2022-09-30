@@ -54,7 +54,7 @@
                                         $icon['icon'] = "";
                                     }
                                     ?>
-                                    <a href="<?php echo $icon['link']  && "";?>"><img src="<?php echo $icon['icon'] or "";?>" alt="icon" /></a>
+                                    <a href="<?php echo $icon['link']  && "";?>"><img src="<?php echo $icon['bild'] or "";?>" alt="icon" /></a>
                                 <?php 
                                 }
                             }
