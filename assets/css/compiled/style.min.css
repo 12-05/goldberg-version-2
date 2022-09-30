@@ -9,7 +9,7 @@ body.nav-open .page-wrap{-webkit-transition:all .3s ease;transition:all .3s ease
 h1,h2,h3{font-family:"Roboto Condensed";margin:0;font-weight:normal;line-height:1.1;color:#163966}
 h2{font-size:1.8rem;margin-bottom:1rem}
 p{font-size:1rem;margin-top:0}
-.page-wrap{overflow:hidden}
+.page-wrap{padding-top:100px;overflow:hidden}
 .nav-open .page-wrap{overflow:visible}
 .wp-block-columns,.wrapped{max-width:64rem;margin:0 auto;padding:0 2rem}
 .wp-block-columns.small,.wrapped.small{max-width:40rem}

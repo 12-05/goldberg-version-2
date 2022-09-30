@@ -102,7 +102,6 @@ body {
 		}
 		.page-wrap {
 			transition: all 0.3s ease;
-
 			transform: translateX(-30vw);
 			@media (max-width: $mobile) {
 				transform: translateX(-70vw);
@@ -142,6 +141,8 @@ p {
 }
 
 .page-wrap {
+	padding-top: 100px;
+
 	overflow: hidden;
 	//transform: translateZ(0);
 }
