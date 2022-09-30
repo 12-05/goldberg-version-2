@@ -39,13 +39,14 @@ p{font-size:1rem;margin-top:0}
 .header .toolbar .language-menu ul{display:-webkit-box;display:-ms-flexbox;display:flex;margin:0;padding:0;margin:0 2rem}
 .header .toolbar .language-menu ul li{list-style:none;display:inline-block;padding:1rem;color:#163966}
 .header .nav{z-index:10;position:fixed;top:0;right:0;height:100vh;width:30vw;-webkit-transform:translateX(100%);transform:translateX(100%);background:#163966;-webkit-transition:all .3s ease;transition:all .3s ease;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;overflow-y:auto}
+.header .nav>div>ul{min-width:180px}
 .header .nav ul{margin:0;padding:0}
 .header .nav ul li{font-size:24px;font-family:"Roboto Condensed","sans-serif";list-style:none;margin-bottom:1rem}
 .header .nav ul li a{color:#fff;text-decoration:none}
 .header .nav ul li a:hover{text-decoration:underline}
 .header .nav ul li.menu-item-has-children{position:relative}
 .header .nav ul li.menu-item-has-children>a:before{content:"+";display:inline-block;margin-right:1rem;position:absolute;left:-2rem}
-.header .nav ul li ul.sub-menu{display:none;margin-left:2rem;margin-top:1rem;margin-bottom:1rem;-webkit-transition:all .3s ease;transition:all .3s ease}
+.header .nav ul li ul.sub-menu{display:none;margin-left:2rem;margin-top:1rem;margin-bottom:1rem;min-height:1;-webkit-transition:all .3s ease;transition:all .3s ease}
 .footer .footer-top{background:#163966;color:white;padding:4rem 0}
 .footer .footer-top .wrapped{display:grid;grid-gap:2rem;grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
 .footer .footer-top .wrapped .office h3{font-size:32px;margin-bottom:2rem;color:#fff}

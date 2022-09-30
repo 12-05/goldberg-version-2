@@ -368,6 +368,9 @@ p {
 		@media (max-width: $mobile) {
 			width: 70vw;
 		}
+		> div > ul {
+			min-width: 180px;
+		}
 		ul {
 			margin: 0;
 			padding: 0;
@@ -404,6 +407,7 @@ p {
 					margin-left: 2rem;
 					margin-top: 1rem;
 					margin-bottom: 1rem;
+					min-height: 1;
 					transition: all 0.3s ease;
 				}
 				&:hover {
