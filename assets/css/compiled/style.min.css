@@ -76,7 +76,7 @@ a:hover{text-decoration:none}
 .block-rechtsgebiete{padding-top:3rem;padding-bottom:3rem}
 .block-rechtsgebiete h2{margin-bottom:3rem;text-align:center}
 .block-rechtsgebiete .grid{grid-template-columns:repeat(auto-fit,minmax(300px,1fr));display:grid;grid-gap:2rem}
-.block-rechtsgebiete .grid .rechtsgebiet{min-width:0;height:164px;background:#eee;display:-webkit-box;display:-ms-flexbox;display:flex;padding:2rem;color:#163966;max-width:100%;text-decoration:none;-webkit-box-sizing:content-box;box-sizing:content-box;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;-webkit-transition:all .3s ease;transition:all .3s ease;overflow:hidden;position:relative}
+.block-rechtsgebiete .grid .rechtsgebiet{min-width:0;height:164px;background:#eee;display:-webkit-box;display:-ms-flexbox;display:flex;padding:1rem;color:#163966;max-width:100%;text-decoration:none;-webkit-box-sizing:content-box;box-sizing:content-box;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;-webkit-transition:all .3s ease;transition:all .3s ease;overflow:hidden;position:relative}
 .block-rechtsgebiete .grid .rechtsgebiet:hover{background:#163966;color:#fff;-webkit-transition:all .3s ease;transition:all .3s ease}
 .block-rechtsgebiete .grid .rechtsgebiet:hover svg path{-webkit-transition:all .3s ease;transition:all .3s ease;stroke:#fff}
 .block-rechtsgebiete .grid .rechtsgebiet .text{-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;width:100%}
@@ -97,7 +97,7 @@ img.aligncenter{display:block;margin:0 auto}
 .block-anwaelte .anwalt .bild img{height:250px;width:100%;-o-object-fit:cover;object-fit:cover}
 .block-anwaelte .anwalt .text{margin-top:1rem}
 .block-anwaelte .anwalt .text:after{content:"";height:20px;width:20px;background-image:url("../../images/arrow.svg");background-color:red;display:inline-block;float:right;background-color:transparent;background-size:contain;background-position:center;background-repeat:no-repeat}
-.block-anwaelte .anwalt .text .name{font-size:1.5rem;font-family:"Roboto Condensed","sans-serif";color:#163966;display:block}
+.block-anwaelte .anwalt .text .name{font-size:1.5rem;font-family:"Roboto Condensed","sans-serif";color:#163966;display:block;line-height:1.1}
 .block-anwaelte .anwalt .text .titel{color:#707070;font-size:16px}
 .block-news{padding-top:3rem;padding-bottom:3rem;background:#eee}
 .block-news .wrapped{display:grid;grid-template-columns:1fr 3fr}
@@ -162,7 +162,8 @@ img.aligncenter{display:block;margin:0 auto}
 .single-office iframe{border:0 !important;margin-bottom:2rem;max-width:100%}
 .single-office .office-block{float:right;background:#eee;margin-left:3rem;margin-top:-10rem}
 .single-office .office-block .padded{padding:2rem}
-@media(max-width:768px){body.nav-open header{-webkit-transform:translateX(-70vw);transform:translateX(-70vw)}
+@media(max-width:768px){html,body{font-size:17px}
+body.nav-open header{-webkit-transform:translateX(-70vw);transform:translateX(-70vw)}
 body.nav-open .page-wrap{-webkit-transform:translateX(-70vw);transform:translateX(-70vw)}
 h2{font-size:1.5rem}
 .header .toolbar .phone{display:none}

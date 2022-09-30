@@ -82,6 +82,9 @@ $mobile: 768px;
 html,
 body {
 	font-size: 20px;
+	@media (max-width: $mobile) {
+		font-size: 17px;
+	}
 }
 body {
 	background: #fff;
@@ -614,7 +617,7 @@ a {
 			height: 164px;
 			background: #eeeeee;
 			display: flex;
-			padding: 2rem;
+			padding: 1rem;
 			color: $blue;
 			max-width: 100%;
 			text-decoration: none;
@@ -726,6 +729,7 @@ img.aligncenter {
 				font-family: "Roboto Condensed", "sans-serif";
 				color: $blue;
 				display: block;
+				line-height: 1.1;
 			}
 			.titel {
 				color: $text;
