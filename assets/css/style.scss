@@ -361,6 +361,7 @@ p {
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		overflow-y: auto;
 		@media (max-width: $mobile) {
 			width: 70vw;
 		}
