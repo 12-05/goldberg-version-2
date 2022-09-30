@@ -179,7 +179,7 @@ h2{font-size:1.5rem}
 .anwalt-profil .anwalt-hero .wrapped{grid-template-columns:1fr}
 .anwalt-profil .anwalt-hero .wrapped .anwalt-hero-content{padding-top:2rem;padding-bottom:2rem}
 .anwalt-profil .anwalt-hero .wrapped .anwalt-hero-content h1{font-size:1.5rem}
-.news-container{grid-template-columns:1fr}
+.news-container{grid-template-columns:1fr;display:block}
 .block-standorte{padding-top:2rem;padding-bottom:2rem}
 .block-buttongroup{padding-top:2rem;padding-bottom:2rem}
 .block-buttongroup .group{grid-template-columns:1fr}

@@ -858,6 +858,7 @@ img.aligncenter {
 	// make 1fr on mobile
 	@media (max-width: $mobile) {
 		grid-template-columns: 1fr;
+		display: block;
 	}
 	.sidebar {
 		float: right;
