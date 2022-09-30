@@ -363,8 +363,8 @@ p {
 		transition: all 0.3s ease;
 		display: flex;
 		align-items: center;
-		justify-content: center;
 		overflow-y: auto;
+		padding-left: 11vw;
 		@media (max-width: $mobile) {
 			width: 70vw;
 		}
