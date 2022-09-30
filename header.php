@@ -9,7 +9,6 @@
 
     </head>
     <body <?php body_class();?>>
-        <div class="page-wrap">
         <header class="header">
             <div class="logo-wrapper">
                 <a href="/"><img class="logo" src="<?php echoImg('goldberg_logo.png');?>" /></a>
@@ -48,6 +47,8 @@ wp_nav_menu( array(
                
             </div>
         </header>
+        <div class="page-wrap">
+
         <main>
 <?php 
 

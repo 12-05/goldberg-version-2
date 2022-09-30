@@ -87,16 +87,26 @@ body {
 	background: #fff;
 	margin: 0;
 	font-family: "Roboto", "sans-serif";
-	width: 100%;
-	overflow-x: hidden;
-	transform: translateX(0);
+	//width: 100%;
+	//overflow-x: hidden;
+	//transform: translateX(0);
 	transition: all 0.3s ease;
 	line-height: 1.8;
 	color: $text;
 	&.nav-open {
-		transform: translateX(-30vw);
-		@media (max-width: $mobile) {
-			transform: translateX(-70vw);
+		header {
+			transform: translateX(-30vw);
+			@media (max-width: $mobile) {
+				transform: translateX(-70vw);
+			}
+		}
+		.page-wrap {
+			transition: all 0.3s ease;
+
+			transform: translateX(-30vw);
+			@media (max-width: $mobile) {
+				transform: translateX(-70vw);
+			}
 		}
 	}
 }
@@ -132,18 +142,12 @@ p {
 }
 
 .page-wrap {
-	width: 100vw;
 	overflow: hidden;
-	transform: translateZ(0);
+	//transform: translateZ(0);
 }
 
 .nav-open .page-wrap {
 	overflow: visible;
-}
-
-body {
-	width: 100vw;
-	overflow-x: hidden;
 }
 
 @mixin sectionPad {
@@ -180,13 +184,26 @@ body {
 .header {
 	min-height: 100px;
 	background: #fff;
+	width: 100%;
+	box-sizing: border-box;
 	display: flex;
+	transition: all 0.3s ease;
+	position: fixed;
+	z-index: 9999999;
 	justify-content: space-between;
 	padding: 0 2rem;
 	box-sizing: border-box;
 	align-items: center;
 	max-width: 100%;
 	box-sizing: border-box;
+
+	&.is-fixed {
+		position: fixed;
+		z-index: 100;
+
+		animation-name: stickySlideDown;
+		transition: none;
+	}
 	.logo {
 		height: 40px;
 	}
@@ -457,6 +474,17 @@ a {
 	color: $blue;
 	&:hover {
 		text-decoration: none;
+	}
+}
+
+@keyframes stickySlideDown {
+	0% {
+		opacity: 0.7;
+		transform: translateY(-100%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
 	}
 }
 /// START OF BLOCKS ////
