@@ -16,7 +16,6 @@ node_modules/
 *.tar
 *.zip
 *.tgz
-*.map
 
 # Logs and databases #
 ######################
@@ -40,7 +39,6 @@ Thumbs.db
 ##########
 **/.sass-cache
 **/.sass-cache/*
-**/.map
 
 # Composer #
 ##########
