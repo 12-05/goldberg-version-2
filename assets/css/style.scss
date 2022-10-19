@@ -1128,13 +1128,14 @@ img.aligncenter {
 	label {
 		display: block;
 		margin-bottom: 8px;
+		margin-top: 16px;
 	}
 	input {
 		padding: 0.5rem 1rem;
 		font-size: 1rem;
 		font-family: "Roboto";
 	}
-	input[type="submit"]  {
+	input[type="submit"] {
 		background: $blue;
 		color: #fff;
 		border: 0px;
