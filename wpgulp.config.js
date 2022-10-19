@@ -27,7 +27,7 @@ const styleSRC = "./assets/css/style.scss";
 const styleDestination = "./assets/css/compiled/";
 
 // Available options → 'compact' or 'compressed' or 'nested' or 'expanded'
-const outputStyle = "compact";
+const outputStyle = "compressed";
 const errLogToConsole = true;
 const precision = 10;
 

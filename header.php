@@ -25,10 +25,7 @@
                     <img src="<?php echoImg('phone.svg');?>" alt="Telefon" />
                 </div>
                 <div class="language-menu">
-                    <ul>
-                        <li>DE</li>
-                        <li>EN</li>
-                    </ul>
+                <div id="weglot_here"></div> 
                 </div>
                 <div class="menu-toggle">
                     <input id="menu__toggle" type="checkbox" />

@@ -15,19 +15,19 @@ p{font-size:1rem;margin-top:0}
 .wp-block-columns.small,.wrapped.small{max-width:40rem}
 .wp-block-columns{padding-top:50px;padding-bottom:50px}
 .wp-block{max-width:100%}
-.wp-block[data-align="wide"]{max-width:100%}
+.wp-block[data-align=wide]{max-width:100%}
 .header{min-height:100px;background:#fff;width:100%;-webkit-box-sizing:border-box;box-sizing:border-box;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-transition:all .3s ease;transition:all .3s ease;position:fixed;z-index:9999999;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding:0 2rem;box-sizing:border-box;-webkit-box-align:center;-ms-flex-align:center;align-items:center;max-width:100%;box-sizing:border-box}
 .header.is-fixed{position:fixed;z-index:100;-webkit-animation-name:stickySlideDown;animation-name:stickySlideDown;-webkit-transition:none;transition:none}
 .header .logo{height:40px}
 .header .menu-toggle #menu__toggle{opacity:0;position:fixed}
-.header .menu-toggle #menu__toggle:checked ~ .menu__btn>span{-webkit-transform:rotate(45deg);transform:rotate(45deg)}
-.header .menu-toggle #menu__toggle:checked ~ .menu__btn>span::before{top:0;-webkit-transform:rotate(0);transform:rotate(0)}
-.header .menu-toggle #menu__toggle:checked ~ .menu__btn>span::after{top:0;-webkit-transform:rotate(90deg);transform:rotate(90deg)}
+.header .menu-toggle #menu__toggle:checked~.menu__btn>span{-webkit-transform:rotate(45deg);transform:rotate(45deg)}
+.header .menu-toggle #menu__toggle:checked~.menu__btn>span::before{top:0;-webkit-transform:rotate(0);transform:rotate(0)}
+.header .menu-toggle #menu__toggle:checked~.menu__btn>span::after{top:0;-webkit-transform:rotate(90deg);transform:rotate(90deg)}
 .header .menu-toggle .menu__btn{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:relative;width:40px;height:40px;cursor:pointer;z-index:1}
 .header .menu-toggle .menu__btn>span,.header .menu-toggle .menu__btn>span::before,.header .menu-toggle .menu__btn>span::after{display:block;position:absolute;width:100%;height:3px;background-color:#163966;-webkit-transition-duration:.25s;transition-duration:.25s}
 .header .menu-toggle .menu__btn>span::before{content:"";top:-10}
 .header .menu-toggle .menu__btn>span::after{content:"";top:10px}
-.header .menu-toggle .menu__box{display:block;visibility:hidden;top:0;width:300px;height:100%;margin:0;padding:80px 0;list-style:none;background-color:#eceff1;-webkit-box-shadow:1px 0 6px rgba(0,0,0,0.2);box-shadow:1px 0 6px rgba(0,0,0,0.2);-webkit-transition-duration:.25s;transition-duration:.25s}
+.header .menu-toggle .menu__box{display:block;visibility:hidden;top:0;width:300px;height:100%;margin:0;padding:80px 0;list-style:none;background-color:#eceff1;-webkit-box-shadow:1px 0 6px rgba(0,0,0,.2);box-shadow:1px 0 6px rgba(0,0,0,.2);-webkit-transition-duration:.25s;transition-duration:.25s}
 .header .menu-toggle .menu__item{display:block;padding:12px 24px;color:#333;font-family:"Roboto",sans-serif;font-size:20px;font-weight:600;text-decoration:none;-webkit-transition-duration:.25s;transition-duration:.25s}
 .header .menu-toggle .menu__item:hover{background-color:#cfd8dc}
 .header .menu-toggle img{cursor:pointer}
@@ -47,7 +47,7 @@ p{font-size:1rem;margin-top:0}
 .header .nav ul li.menu-item-has-children{position:relative}
 .header .nav ul li.menu-item-has-children>a:before{content:"+";display:inline-block;margin-right:1rem;position:absolute;left:-2rem}
 .header .nav ul li ul.sub-menu{display:none;margin-left:2rem;margin-top:1rem;margin-bottom:1rem;min-height:1;-webkit-transition:all .3s ease;transition:all .3s ease}
-.footer .footer-top{background:#163966;color:white;padding:4rem 0}
+.footer .footer-top{background:#163966;color:#fff;padding:4rem 0}
 .footer .footer-top .wrapped{display:grid;grid-gap:2rem;grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
 .footer .footer-top .wrapped .office h3{font-size:32px;margin-bottom:2rem;color:#fff}
 .footer .footer-top .wrapped .office p{opacity:.5}
@@ -69,7 +69,7 @@ a:hover{text-decoration:none}
 .block-hero .wrapped h1{color:#fff;font-size:3rem;position:relative;z-index:9}
 .block-hero .wrapped h1:after{content:"";display:block;height:10px;width:50px;background:#163966;bottom:-20px;position:absolute}
 .block-video{min-height:70vh;background-size:cover;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;position:relative;overflow:hidden}
-.block-video:after{position:absolute;content:"";background-color:rgba(0,0,0,0.2);height:100%;width:100%;top:0;left:0}
+.block-video:after{position:absolute;content:"";background-color:rgba(0,0,0,.2);height:100%;width:100%;top:0;left:0}
 .block-video video{z-index:0;position:absolute;top:50%;left:50%;right:0;bottom:0;min-width:100%;min-height:100%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%)}
 .block-video .wrapped{width:100%;margin-bottom:8rem}
 .block-video .wrapped h1{color:#fff;font-size:3rem;position:relative;z-index:9}
@@ -97,7 +97,7 @@ img.aligncenter{display:block;margin:0 auto}
 .block-anwaelte .anwalt .bild{background-size:cover;background-position:center;height:250px;background-color:#eee}
 .block-anwaelte .anwalt .bild img{height:250px;width:100%;-o-object-fit:cover;object-fit:cover}
 .block-anwaelte .anwalt .text{margin-top:1rem}
-.block-anwaelte .anwalt .text:after{content:"";height:20px;width:20px;background-image:url("../../images/arrow.svg");background-color:red;display:inline-block;float:right;background-color:transparent;background-size:contain;background-position:center;background-repeat:no-repeat}
+.block-anwaelte .anwalt .text:after{content:"";height:20px;width:20px;background-image:url("../../images/arrow.svg");background-color:red;display:inline-block;float:right;background-color:rgba(0,0,0,0);background-size:contain;background-position:center;background-repeat:no-repeat}
 .block-anwaelte .anwalt .text .name{font-size:1.5rem;font-family:"Roboto Condensed","sans-serif";color:#163966;display:block;line-height:1.1}
 .block-anwaelte .anwalt .text .titel{color:#707070;font-size:16px}
 .block-news{padding-top:3rem;padding-bottom:3rem;background:#eee}
@@ -117,7 +117,7 @@ img.aligncenter{display:block;margin:0 auto}
 .anwalt-profil .anwalt-hero .wrapped .anwalt-hero-content .group{margin-bottom:2rem}
 .anwalt-profil .anwalt-hero .wrapped .anwalt-hero-content .group .label{font-family:"Roboto Condensed",sans-serif;color:#163966;font-weight:bold}
 .anwalt-profil .anwalt-hero .wrapped .anwalt-hero-content .group .standort{font-family:"Roboto Condensed",sans-serif;color:#163966;font-weight:bold;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
-.anwalt-profil .anwalt-hero .wrapped .anwalt-hero-content .group .standort:before{content:"";height:20px;width:20px;background-image:url("../../images/map-marker.svg");background-color:transparent;background-size:contain;background-position:center;background-repeat:no-repeat;display:inline-block;float:left;margin-right:.5rem}
+.anwalt-profil .anwalt-hero .wrapped .anwalt-hero-content .group .standort:before{content:"";height:20px;width:20px;background-image:url("../../images/map-marker.svg");background-color:rgba(0,0,0,0);background-size:contain;background-position:center;background-repeat:no-repeat;display:inline-block;float:left;margin-right:.5rem}
 .goldberg-post{margin-bottom:100px}
 .goldberg-post h2{margin-bottom:2rem}
 .goldberg-post h2 a{text-decoration:none;color:#163966}
@@ -143,7 +143,7 @@ img.aligncenter{display:block;margin:0 auto}
 .sidebar .wp-block-latest-posts__list li a:hover{text-decoration:underline}
 .sidebar .wp-block-archives-dropdown label{display:none}
 .sidebar .wp-block-archives-dropdown select{padding-right:2rem;background-color:#eee;padding:.5rem 1rem;border-radius:0;border:0;-webkit-appearance:none;-moz-appearance:none;appearance:none;font-family:"Roboto","sans-serif"}
-.sidebar .wp-block-archives-dropdown select:after{content:"";height:20px;width:20px;background-image:url("../../images/arrow-down.svg");background-color:transparent;background-size:contain;background-position:center;background-repeat:no-repeat;display:inline-block;float:right;margin-left:.5rem}
+.sidebar .wp-block-archives-dropdown select:after{content:"";height:20px;width:20px;background-image:url("../../images/arrow-down.svg");background-color:rgba(0,0,0,0);background-size:contain;background-position:center;background-repeat:no-repeat;display:inline-block;float:right;margin-left:.5rem}
 .wp-admin .block{opacity:1 !important}
 .editor-styles-wrapper .block{opacity:1 !important}
 .block-standorte{padding-top:3rem;padding-bottom:3rem}
