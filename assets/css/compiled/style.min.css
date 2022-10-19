@@ -162,6 +162,9 @@ img.aligncenter{display:block;margin:0 auto}
 .single-office iframe{border:0 !important;margin-bottom:2rem;max-width:100%}
 .single-office .office-block{float:right;background:#eee;margin-left:3rem;margin-top:-10rem}
 .single-office .office-block .padded{padding:2rem}
+.wpcf7 label{display:block;margin-bottom:8px}
+.wpcf7 input{padding:.5rem 1rem;font-size:1rem;font-family:"Roboto"}
+.wpcf7 input[type=submit]{background:#163966;color:#fff;border:0;-webkit-appearance:none;-moz-appearance:none;appearance:none}
 @media(max-width:768px){html,body{font-size:17px}
 body.nav-open header{-webkit-transform:translateX(-70vw);transform:translateX(-70vw)}
 body.nav-open .page-wrap{-webkit-transform:translateX(-70vw);transform:translateX(-70vw)}
