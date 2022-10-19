@@ -41,7 +41,7 @@ p{font-size:1rem;margin-top:0}
 .header .nav>div>ul{min-width:180px}
 .header .nav ul{margin:0;padding:0}
 .header .nav ul li{font-size:24px;font-family:"Roboto Condensed","sans-serif";list-style:none;margin-bottom:1rem}
-.header .nav ul li a{color:#fff;text-decoration:none}
+.header .nav ul li a{color:#fff;text-decoration:none;font-family:"Roboto Condensed","sans-serif"}
 .header .nav ul li a:hover{text-decoration:underline}
 .header .nav ul li.menu-item-has-children{position:relative}
 .header .nav ul li.menu-item-has-children>a:before{content:"+";display:inline-block;margin-right:1rem;position:absolute;left:-2rem}
