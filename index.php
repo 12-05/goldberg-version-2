@@ -20,9 +20,13 @@ get_header();
 ?>
 
 <div class="goldberg-news-wrapper" id="index-wrapper">
-
+<section class="block block-hero" style="margin-bottom:2rem;background-image: url(<?php echo the_field('news_bild', 'option');?>); opacity: 1;">
+    <div class="wrapped">
+        <h1>News</h1>
+    </div>
+</section>
 	<div class="news-container wrapped" id="content" tabindex="-1">
-
+	
 
 			<!-- Do the left sidebar check and opens the primary div -->
 
