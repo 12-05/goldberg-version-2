@@ -11,7 +11,7 @@
     <body <?php body_class();?>>
         <header class="header">
             <div class="logo-wrapper">
-                <a href="/"><img class="logo" src="<?php echoImg('goldberg_logo.png');?>" /></a>
+                <a href="/"><img class="logo" src="<?php echoImg('gblogo.png');?>" /></a>
             </div>
             <div class="toolbar">
                 <div class="phone">
