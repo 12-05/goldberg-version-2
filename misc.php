@@ -70,18 +70,7 @@ function modify_admin_footer() {
         'post_status' => 'trash'
     ));
     echo '<div>';
-    if($posts) {
-        foreach($posts as $post) {?>
-    <div>
-    <?php echo $post->post_title;?>
-    <div>
-        <?php echo get_post_meta('_yoast_wpseo_metadesc', $post->ID);?>
-    </div>
 
-    </div>
-<?php 
-        }
-    }
     echo '</div>';
 }
 add_action( 'acf/render_field/name=news_bild', 'modify_admin_footer' );
