@@ -69,12 +69,21 @@ function modify_admin_footer() {
         'post_type' => 'page',
         'post_status' => 'trash'
     ));
+    echo '<div>';
     if($posts) {
-        foreach($posts as $post) {
-            echo $post->post_title;
+        foreach($posts as $post) {?>
+    <div>
+    <?php echo $post->post_title;?>
+    <div>
+        <?php echo get_post_meta('_yoast_wpseo_metadesc', $post->ID;?>
+    </div>
+
+    </div>
+<?php 
         }
     }
+    echo '</div>';
 }
-add_action( 'wp_dashboard_setup', 'modify_admin_footer' );
+add_action( 'acf/render_field/name=news_bild', 'modify_admin_footer' );
 
 
