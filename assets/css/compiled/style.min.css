@@ -177,7 +177,7 @@ h2{font-size:1.5rem}
 .block-text{padding-top:2rem;padding-bottom:2rem}
 .block-text.headline-links{grid-gap:0;grid-template-columns:1fr}
 .block-text{grid-gap:0;grid-template-columns:1fr}
-.block-hero .wrapped h1{font-size:2rem}
+.block-hero .wrapped h1{font-size:2rem;text-shadow:2px 2px 7px rgba(0,0,0,.47)}
 .block-video .wrapped h1{font-size:2rem}
 .block-rechtsgebiete{padding-top:2rem;padding-bottom:2rem}
 .block-anwaelte{padding-top:2rem;padding-bottom:2rem}

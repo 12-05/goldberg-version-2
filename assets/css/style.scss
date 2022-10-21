@@ -528,6 +528,7 @@ a {
 			z-index: 9;
 			@media (max-width: $mobile) {
 				font-size: 2rem;
+				text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.47);
 			}
 			&:after {
 				content: "";
