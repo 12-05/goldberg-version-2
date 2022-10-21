@@ -87,6 +87,7 @@ img.aligncenter{display:block;margin:0 auto}
 .block-anwaelte .slick-slide{margin:0 27px}
 .block-anwaelte .slick-slider{margin-top:3rem;margin-bottom:3rem}
 .block-anwaelte .slick-list{margin:0 -27px}
+.block-anwaelte .slick-prev{z-index:99999}
 .block-anwaelte .slick-prev:before{color:#163966;z-index:9999}
 .block-anwaelte .slick-next:before{color:#163966}
 .block-anwaelte .slick-slide{height:auto}
