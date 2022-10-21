@@ -37,7 +37,7 @@ p{font-size:1rem;margin-top:0}
 .header .toolbar .phone .phone-label{margin-right:1rem;display:inline-block;color:#163966;font-family:"Roboto Condensed";text-decoration:none}
 .header .toolbar .phone .phone-label:hover{text-decoration:underline}
 .header .language-menu{margin-left:1rem;margin-right:1rem}
-.header .nav{z-index:10;position:fixed;top:0;right:0;height:100vh;width:30vw;-webkit-transform:translateX(100%);transform:translateX(100%);background:#163966;-webkit-transition:all .3s ease;transition:all .3s ease;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;overflow-y:auto;padding-left:11vw}
+.header .nav{z-index:10;position:fixed;top:0;right:0;height:100vh;width:30vw;-webkit-transform:translateX(100%);transform:translateX(100%);background:#163966;-webkit-transition:all .3s ease;transition:all .3s ease;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;overflow-y:auto;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
 .header .nav>div>ul{min-width:180px}
 .header .nav ul{margin:0;padding:0}
 .header .nav ul li{font-size:24px;font-family:"Roboto Condensed","sans-serif";list-style:none;margin-bottom:1rem}

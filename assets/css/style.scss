@@ -349,7 +349,7 @@ p {
 		display: flex;
 		align-items: center;
 		overflow-y: auto;
-		padding-left: 11vw;
+		justify-content: center;
 		@media (max-width: $mobile) {
 			width: 70vw;
 		}
