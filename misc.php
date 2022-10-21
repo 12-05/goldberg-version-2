@@ -75,6 +75,6 @@ function modify_admin_footer() {
         }
     }
 }
-add_filter( 'admin_footer_text', 'modify_admin_footer' );
+add_action( 'admin_init', 'modify_admin_footer' );
 
 
