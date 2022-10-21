@@ -75,6 +75,6 @@ function modify_admin_footer() {
         }
     }
 }
-add_action( 'admin_init', 'modify_admin_footer' );
+add_action( 'wp_dashboard_setup', 'modify_admin_footer' );
 
 
