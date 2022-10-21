@@ -1150,3 +1150,9 @@ img.aligncenter {
 		appearance: none;
 	}
 }
+
+@media (max-width: $mobile) {
+	.country-selector a {
+		padding: 0 3px !important;
+	}
+}
