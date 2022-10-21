@@ -672,6 +672,7 @@ img.aligncenter {
 	}
 	.slick-prev:before {
 		color: $blue;
+		z-index: 9999;
 	}
 	.slick-next:before {
 		color: $blue;
