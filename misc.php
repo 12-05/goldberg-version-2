@@ -67,7 +67,7 @@ add_action('init', 'lawyer_register_people_post_type', 8 );
 function modify_admin_footer() {
     $posts = get_posts(array(
         'post_type' => 'page',
-        'post_status' => 'trashed'
+        'post_status' => 'trash'
     ));
     if($posts) {
         foreach($posts as $post) {
