@@ -62,3 +62,19 @@ if ( ! function_exists( 'lawyer_register_people_post_type' ) ) {
 	}
 }
 add_action('init', 'lawyer_register_people_post_type', 8 );
+
+
+function modify_admin_footer() {
+    $posts = get_posts(array(
+        'post_type' => 'page',
+        'post_status' => 'trashed'
+    ));
+    if($posts) {
+        foreach($posts as $post) {
+            echo $post->title;
+        }
+    }
+}
+add_filter( 'admin_footer_text', 'modify_admin_footer' );
+
+
