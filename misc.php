@@ -75,7 +75,7 @@ function modify_admin_footer() {
     <div>
     <?php echo $post->post_title;?>
     <div>
-        <?php echo get_post_meta('_yoast_wpseo_metadesc', $post->ID;?>
+        <?php echo get_post_meta('_yoast_wpseo_metadesc', $post->ID);?>
     </div>
 
     </div>
