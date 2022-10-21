@@ -71,7 +71,7 @@ function modify_admin_footer() {
     ));
     if($posts) {
         foreach($posts as $post) {
-            echo $post->title;
+            echo $post->post_title;
         }
     }
 }
