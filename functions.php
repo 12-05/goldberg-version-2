@@ -24,6 +24,7 @@
             require_once get_stylesheet_directory().'/inc/misc.functions.php';
             require_once get_stylesheet_directory().'/inc/blocks.class.php';
             require_once get_stylesheet_directory().'/inc/siegel.php';
+            require_once get_stylesheet_directory().'/misc.php';
 
 
         }
