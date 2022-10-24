@@ -518,6 +518,7 @@ a {
 	background-position: center;
 	display: flex;
 	align-items: flex-end;
+	position: relative;
 	.wrapped {
 		width: 100%;
 		margin-bottom: 8rem;
@@ -1154,5 +1155,19 @@ img.aligncenter {
 @media (max-width: $mobile) {
 	.country-selector a {
 		padding: 0 3px !important;
+	}
+}
+
+.home-siegel {
+	position: absolute;
+	bottom: 2rem;
+	right: 2rem;
+	@media (max-width: $mobile) {
+		top: 2rem;
+		bottom: auto;
+	}
+	img {
+		max-width: 100px;
+		z-index: 99;
 	}
 }
