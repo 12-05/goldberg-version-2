@@ -59,6 +59,12 @@
             </div>
         </div>
     </footer>
+    <?php 
+    if(get_field('home_siegel', 'option')) {?>
+        <div class="home-siegel">
+            <img src="<?php the_field('home_siegel', 'option');?>" alt="Siegel" />
+        </div>
+    <?php } ?>     
                         </div>
                     
                         <?php wp_footer();?>
