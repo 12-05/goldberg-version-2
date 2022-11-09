@@ -1159,11 +1159,13 @@ img.aligncenter {
 }
 
 .home-siegel {
-	position: fixed;
+	position: absolute;
 	bottom: 2rem;
 	right: 2rem;
+	z-index: 99;
 	@media (max-width: $mobile) {
-		position: absolute;
+		top: 2rem;
+		bottom: auto;
 	}
 	img {
 		max-width: 100px;

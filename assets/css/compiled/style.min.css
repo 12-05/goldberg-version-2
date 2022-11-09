@@ -166,7 +166,7 @@ img.aligncenter{display:block;margin:0 auto}
 .wpcf7 label{display:block;margin-bottom:8px;margin-top:16px}
 .wpcf7 input{padding:.5rem 1rem;font-size:1rem;font-family:"Roboto"}
 .wpcf7 input[type=submit]{background:#163966;color:#fff;border:0;-webkit-appearance:none;-moz-appearance:none;appearance:none}
-.home-siegel{position:fixed;bottom:2rem;right:2rem}
+.home-siegel{position:absolute;bottom:2rem;right:2rem;z-index:99}
 .home-siegel img{max-width:100px;z-index:99}
 @media(max-width:768px){html,body{font-size:17px}
 body.nav-open header{-webkit-transform:translateX(0);transform:translateX(0)}
@@ -195,7 +195,7 @@ h2{font-size:1.5rem}
 .single-office .office-block{float:none;margin:0;margin-bottom:2rem}
 .single-office .office-block iframe{max-width:100%}
 .country-selector a{padding:0 3px !important}
-.home-siegel{position:absolute}
+.home-siegel{top:2rem;bottom:auto}
 }@-webkit-keyframes stickySlideDown{0%{opacity:.7;-webkit-transform:translateY(-100%);transform:translateY(-100%)}
 100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}
 }@keyframes stickySlideDown{0%{opacity:.7;-webkit-transform:translateY(-100%);transform:translateY(-100%)}
