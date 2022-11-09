@@ -100,7 +100,7 @@ body {
 		header {
 			transform: translateX(-40vw);
 			@media (max-width: $mobile) {
-				transform: translateX(-0vw);
+				transform: translateX(-70vw);
 			}
 		}
 		.page-wrap {
@@ -1159,16 +1159,16 @@ img.aligncenter {
 }
 
 .home-siegel {
-	position: absolute;
+	position: fixed;
 	bottom: 2rem;
 	right: 2rem;
 	z-index: 99;
-	@media (max-width: $mobile) {
-		top: 2rem;
-		bottom: auto;
-	}
+
 	img {
 		max-width: 100px;
+		@media (max-width: $mobile) {
+			width: 50px;
+		}
 		z-index: 99;
 	}
 }
