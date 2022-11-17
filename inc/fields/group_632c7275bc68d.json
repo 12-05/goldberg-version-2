@@ -57,7 +57,8 @@
                 "page",
                 "office",
                 "anwalt",
-                "rechtsgebiet"
+                "rechtsgebiet",
+                "post"
             ],
             "taxonomy": "",
             "filters": [
@@ -89,5 +90,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1663858591
+    "modified": 1668697109
 }
