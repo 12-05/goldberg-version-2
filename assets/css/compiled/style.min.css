@@ -168,6 +168,7 @@ img.aligncenter{display:block;margin:0 auto}
 .wpcf7 input[type=submit]{background:#163966;color:#fff;border:0;-webkit-appearance:none;-moz-appearance:none;appearance:none}
 .home-siegel{position:fixed;bottom:2rem;right:2rem;z-index:99}
 .home-siegel img{max-width:100px;z-index:99}
+.page-id-5915 .footer-top{display:none !important}
 @media(max-width:768px){html,body{font-size:17px}
 body.nav-open header{-webkit-transform:translateX(-70vw);transform:translateX(-70vw)}
 body.nav-open .page-wrap{-webkit-transform:translateX(-70vw);transform:translateX(-70vw)}
