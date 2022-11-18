@@ -9,7 +9,7 @@
         <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon.png" type="image/png">
 
     </head>
-    < <?php body_class();?>>
+    <body <?php body_class();?>>
   
 
     <header class="header">
