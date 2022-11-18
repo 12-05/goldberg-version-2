@@ -8,10 +8,11 @@
         <title><?php wp_title('|', true, 'right'); ?></title>
         <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon.png" type="image/png">
 
-
     </head>
-    <body <?php body_class();?>>
-        <header class="header">
+    < <?php body_class();?>>
+  
+
+    <header class="header">
             <div class="logo-wrapper">
                 <a href="/"><img class="logo" src="<?php echoImg('gblogo.png');?>" /></a>
             </div>
