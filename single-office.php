@@ -1,10 +1,17 @@
 <?php 
     get_header();?>
-    <section class="block block-hero" style="background-image:url(<?php the_field('header_bild');?>)">
+    <?php if(get_field('header_video')) { ?>
+        <section class="block block-video">
+<video  id="hero_video" style="z-index: 0;"  autoplay muted loop playsinline ><source src="<?php the_field('header_video');?>" type="video/mp4"></video>
     <div class="wrapped">
-        <h1><?php echo get_the_title();?></h1>
-        
+    <h1><?php echo get_the_title();?></h1>
     </div>
+      
+</section>
+    <?php } else { ?>
+        <section class="block block-hero" style="background-image:url(<?php the_field('header_bild');?>)">
+    <?php } ?>
+ 
 </section>
 <section class="block block-text wrapped ">
 <div class="office-block">
