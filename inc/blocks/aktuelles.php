@@ -2,9 +2,8 @@
     <div class="wrapped">
     <h2><?php the_field('headline');?></h2>
     <div class="news-list">
-        <?php $news = get_posts(array(
-            'post_type' => 'post', 
-            'posts_per_page' => 3
+        <?php $news = wp_get_recent_posts(array(
+            'numberposts' => 3
         ));
         if($news) {
             foreach($news as $post) {?>
