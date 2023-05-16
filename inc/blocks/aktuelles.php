@@ -3,8 +3,9 @@
     <h2><?php the_field('headline');?></h2>
     <div class="news-list">
         <?php $news = wp_get_recent_posts(array(
-            'numberposts' => 3
-        ));
+            'numberposts' => 3,
+			'post_type' => 'post',
+        ),OBJECT);
         if($news) {
             foreach($news as $post) {?>
                 <a class="post" href="<?php echo get_permalink($post->ID);?>">
