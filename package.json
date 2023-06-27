@@ -49,5 +49,8 @@
   },
   "resolutions": {
     "glob-parent": "^6.0.1"
+  },
+  "dependencies": {
+    "sass": "^1.63.6"
   }
 }

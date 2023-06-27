@@ -1178,3 +1178,57 @@ img.aligncenter {
 		display: none !important;
 	}
 }
+
+.anwalt-footer {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-gap: 2rem;
+	align-items: center;
+	background-size: cover;
+	background-position: center;
+	background: rgb(231, 227, 219);
+	border-radius: 10px;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+
+	a {
+		text-decoration: none;
+	}
+	background: radial-gradient(
+		circle,
+		rgba(231, 227, 219, 1) 0%,
+		rgba(190, 187, 183, 1) 100%
+	);
+	.anwalt-position {
+		margin-bottom: 1rem;
+	}
+	.anwalt-text {
+		padding: 2rem 0;
+	}
+	img {
+		max-width: 100%;
+	}
+	p {
+		margin: 0;
+	}
+	@media (max-width: 800px) {
+		grid-template-columns: 1fr;
+		grid-gap: 0;
+		.anwalt-text {
+			padding: 1rem;
+		}
+	}
+}
+
+.post-thumbnail {
+	img {
+		height: 400px;
+		width: 100%;
+		object-fit: cover;
+		@media (max-width: 800px) {
+			height: 250px;
+		}
+	}
+	margin-bottom: 1rem;
+	display: block;
+}

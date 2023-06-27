@@ -169,7 +169,18 @@ img.aligncenter{display:block;margin:0 auto}
 .home-siegel{position:fixed;bottom:2rem;right:2rem;z-index:99}
 .home-siegel img{max-width:100px;z-index:99}
 .page-id-5915 .footer-top{display:none !important}
-@media(max-width:768px){html,body{font-size:17px}
+.anwalt-footer{display:grid;grid-template-columns:1fr 2fr;grid-gap:2rem;-webkit-box-align:center;-ms-flex-align:center;align-items:center;background-size:cover;background-position:center;background:#e7e3db;border-radius:10px;margin-bottom:2rem;margin-top:2rem;background:radial-gradient(circle,#e7e3db 0,#bebbb7 100%)}
+.anwalt-footer a{text-decoration:none}
+.anwalt-footer .anwalt-position{margin-bottom:1rem}
+.anwalt-footer .anwalt-text{padding:2rem 0}
+.anwalt-footer img{max-width:100%}
+.anwalt-footer p{margin:0}
+.post-thumbnail{margin-bottom:1rem;display:block}
+.post-thumbnail img{height:400px;width:100%;-o-object-fit:cover;object-fit:cover}
+@media(max-width:800px){.anwalt-footer{grid-template-columns:1fr;grid-gap:0}
+.anwalt-footer .anwalt-text{padding:1rem}
+.post-thumbnail img{height:250px}
+}@media(max-width:768px){html,body{font-size:17px}
 body.nav-open header{-webkit-transform:translateX(-70vw);transform:translateX(-70vw)}
 body.nav-open .page-wrap{-webkit-transform:translateX(-70vw);transform:translateX(-70vw)}
 h2{font-size:1.5rem}
