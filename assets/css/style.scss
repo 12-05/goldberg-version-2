@@ -1211,10 +1211,14 @@ img.aligncenter {
 		}
 	}
 	img {
+		margin-top: 1rem;
 		max-width: 100%;
 	}
 	p {
 		margin: 0;
+	}
+	h3 {
+		font-size: 1.5rem;
 	}
 	@media (max-width: 800px) {
 		grid-template-columns: 1fr;

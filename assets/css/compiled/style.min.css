@@ -174,8 +174,9 @@ img.aligncenter{display:block;margin:0 auto}
 .anwalt-footer .anwalt-position{margin-bottom:1rem}
 .anwalt-footer .anwalt-text{padding:2rem 0}
 .anwalt-footer .anwalt-text p,.anwalt-footer .anwalt-text a{font-size:.85rem;line-height:1.3}
-.anwalt-footer img{max-width:100%}
+.anwalt-footer img{margin-top:1rem;max-width:100%}
 .anwalt-footer p{margin:0}
+.anwalt-footer h3{font-size:1.5rem}
 .post-thumbnail{margin-bottom:1rem;display:block}
 .post-thumbnail img{height:400px;width:100%;-o-object-fit:cover;object-fit:cover}
 @media(max-width:800px){.anwalt-footer{grid-template-columns:1fr;grid-gap:0}
