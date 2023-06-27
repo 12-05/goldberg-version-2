@@ -172,7 +172,7 @@ img.aligncenter{display:block;margin:0 auto}
 .anwalt-footer{display:grid;grid-template-columns:1fr 2fr;grid-gap:2rem;-webkit-box-align:center;-ms-flex-align:center;align-items:center;background-size:cover;background-position:center;background:#e7e3db;border-radius:10px;margin-bottom:2rem;margin-top:2rem;background:radial-gradient(circle,#e7e3db 0,#bebbb7 100%)}
 .anwalt-footer a{text-decoration:none}
 .anwalt-footer .anwalt-position{margin-bottom:1rem}
-.anwalt-footer .anwalt-text{padding:2rem 0}
+.anwalt-footer .anwalt-text{padding:1rem 0}
 .anwalt-footer img{max-width:100%}
 .anwalt-footer p{margin:0}
 .post-thumbnail{margin-bottom:1rem;display:block}
