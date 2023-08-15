@@ -1241,3 +1241,91 @@ img.aligncenter {
 	margin-bottom: 1rem;
 	display: block;
 }
+
+.block-newsletter {
+	background: $blue;
+	color: white;
+	padding: 6rem;
+	.wrapped {
+		h2 {
+			color: white;
+			text-align: center;
+		}
+	}
+	.tnp-subscription {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		label {
+			display: block;
+		}
+		input[type="email"] {
+			width: 100%;
+			font-size: 1rem;
+			padding: 0.5rem 1rem;
+			margin-bottom: 1rem;
+			appearance: none;
+			background: transparent;
+			border: 0px;
+			border-bottom: 2px solid white;
+			color: white;
+			border-radius: 0px;
+		}
+		background: rgba(0, 0, 0, 0.2);
+		padding: 2rem;
+		margin-top: 2rem;
+		form {
+			max-width: 650px;
+		}
+		.tnp-privacy-field {
+			margin-bottom: 1rem;
+			a {
+				font-size: 0.75rem;
+			}
+		}
+		input[type="submit"] {
+			width: 100%;
+			padding: 0.5rem 1rem;
+			font-size: 1rem;
+			background: white;
+			color: $blue;
+			font-family: "Roboto Condensed", "sans-serif";
+			border: 0px;
+			border-radius: 3px;
+			appearance: none;
+		}
+		a {
+			color: white;
+		}
+	}
+
+	.item-grid {
+		margin-top: 4rem;
+		display: grid;
+		// auto grid
+		grid-gap: 2rem;
+		font-size: 0.75rem;
+		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		.item {
+			align-items: center;
+			display: grid;
+			grid-template-columns: 4rem auto;
+			grid-gap: 1rem;
+			img {
+				width: 4rem;
+				height: 4rem;
+				object-fit: contain;
+				margin-right: 1rem;
+				flex-grow: 1;
+			}
+			.item-content {
+				flex-grow: 0;
+				width: auto;
+				line-height: 1.3;
+				h3 {
+					margin-top: 0;
+				}
+			}
+		}
+	}
+}
