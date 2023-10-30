@@ -187,6 +187,20 @@ class GoldbergBlocksClass
             ),
         ));
 
+        acf_register_block_type(array(
+            'name' => 'Goldberg Links',
+            'title' => __('Goldberg Links'),
+            'description' => __('Goldberg Links'),
+            'render_template' => get_template_directory() . '/inc/blocks/links.php',
+            'category' => 'goldberg',
+            'icon' => 'admin-comments',
+            'align' => 'full',
+            'supports' => array(
+                'align' => array('full'),
+                'align' => false,
+            ),
+        ));
+
     }
 }
 

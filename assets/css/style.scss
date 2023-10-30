@@ -1450,3 +1450,39 @@ img.aligncenter {
 		}
 	}
 }
+
+.block-links {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	background: #c4cdd8;
+	.wrapped {
+		display: grid;
+		grid-template-columns: 1fr 3fr;
+		grid-gap: 2rem;
+		.link {
+			background: white;
+			border-radius: 5px;
+			display: block;
+			margin-bottom: 1rem;
+			padding: 1rem;
+			text-decoration: none;
+			padding-right: 3rem;
+			position: relative;
+			&:hover {
+				background: #ebebeb;
+			}
+			&:after {
+				height: 2rem;
+				content: "";
+				width: 2rem;
+				position: absolute;
+				background-size: contain;
+				background-image: url("../../images/link.svg");
+				background-repeat: no-repeat;
+				right: 1rem;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+		}
+	}
+}
