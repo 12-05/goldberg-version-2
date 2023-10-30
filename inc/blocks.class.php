@@ -159,6 +159,34 @@ class GoldbergBlocksClass
             ),
         ));
 
+        acf_register_block_type(array(
+            'name' => 'Goldberg Icons',
+            'title' => __('Goldberg Icons'),
+            'description' => __('Goldberg Icons'),
+            'render_template' => get_template_directory() . '/inc/blocks/icons.php',
+            'category' => 'goldberg',
+            'icon' => 'admin-comments',
+            'align' => 'full',
+            'supports' => array(
+                'align' => array('full'),
+                'align' => false,
+            ),
+        ));
+
+        acf_register_block_type(array(
+            'name' => 'Goldberg Prozess',
+            'title' => __('Goldberg Prozess'),
+            'description' => __('Goldberg Prozess'),
+            'render_template' => get_template_directory() . '/inc/blocks/process.php',
+            'category' => 'goldberg',
+            'icon' => 'admin-comments',
+            'align' => 'full',
+            'supports' => array(
+                'align' => array('full'),
+                'align' => false,
+            ),
+        ));
+
     }
 }
 
