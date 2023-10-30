@@ -249,6 +249,7 @@ h2{font-size:1.5rem}
 .single-office .office-block iframe{max-width:100%}
 .country-selector a{padding:0 3px !important}
 .home-siegel img{width:50px}
+.block-links .wrapped{grid-template-columns:1fr}
 }@-webkit-keyframes stickySlideDown{0%{opacity:.7;-webkit-transform:translateY(-100%);transform:translateY(-100%)}
 100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}
 }@keyframes stickySlideDown{0%{opacity:.7;-webkit-transform:translateY(-100%);transform:translateY(-100%)}

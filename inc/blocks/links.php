@@ -9,7 +9,7 @@
     <div class="right">
         <?php if (get_field('links')) {
     foreach (get_field('links') as $link) {?>
-            <a href="<?php echo $link['link']['url']; ?>" class="link">
+            <a  target="<?php echo $link['link']['target']; ?>" href="<?php echo $link['link']['url']; ?>" class="link">
 
                 <div class="text">
                 <?php echo $link['link']['title']; ?>
