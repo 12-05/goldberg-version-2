@@ -22,10 +22,12 @@ if ($rechtsgebiete) {
 ?>
         </div>
     </div>
+    <div class="wrapped" style="margin-top:2rem">
     <?php if (is_front_page()) {?>
         <a href="<?php echo get_permalink(get_page_by_path('rechtsgebiete')); ?>" class="link">
             <div class="text">
                 <span>Alle Rechtsgebiete</span>
             </div>
     <?php }?>
+    </div>
 </section>
