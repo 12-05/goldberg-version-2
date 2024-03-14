@@ -217,6 +217,7 @@ img.aligncenter{display:block;margin:0 auto}
 .block-links .wrapped .link{background:#fff;border-radius:5px;display:block;margin-bottom:1rem;padding:1rem;text-decoration:none;padding-right:3rem;position:relative}
 .block-links .wrapped .link:hover{background:#ebebeb}
 .block-links .wrapped .link:after{height:2rem;content:"";width:2rem;position:absolute;background-size:contain;background-image:url("../../images/link.svg");background-repeat:no-repeat;right:1rem;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}
+.newsletter-wrap>p{display:none !important}
 @media(max-width:800px){.anwalt-footer{grid-template-columns:1fr;grid-gap:0}
 .anwalt-footer .anwalt-text{padding:1rem}
 .post-thumbnail img{height:250px}
