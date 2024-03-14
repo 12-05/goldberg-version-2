@@ -28,6 +28,7 @@ if ($rechtsgebiete) {
             <div class="text">
                 <span>Alle Rechtsgebiete</span>
             </div>
+    </a>
     <?php }?>
     </div>
 </section>
