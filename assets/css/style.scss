@@ -421,7 +421,7 @@ p {
 				}
 				p {
 					color: #fff;
-					opacity: 0.5;
+					opacity: 0.75;
 					a {
 						color: #fff;
 					}
@@ -574,11 +574,12 @@ a {
 	display: flex;
 	align-items: flex-end;
 	position: relative;
+	background: $blue;
 	overflow: hidden;
 	&:after {
 		position: absolute;
 		content: "";
-		background-color: rgba(0, 0, 0, 0.2);
+		background-color: rgba(0, 0, 0, 0.3);
 		height: 100%;
 		width: 100%;
 		top: 0;

@@ -49,7 +49,7 @@ p{font-size:1rem;margin-top:0}
 .footer .footer-top{background:#163966;color:#fff;padding:4rem 0}
 .footer .footer-top .wrapped{display:grid;grid-gap:2rem;grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
 .footer .footer-top .wrapped .office h3{font-size:32px;margin-bottom:2rem;color:#fff}
-.footer .footer-top .wrapped .office p{color:#fff;opacity:.5}
+.footer .footer-top .wrapped .office p{color:#fff;opacity:.75}
 .footer .footer-top .wrapped .office p a{color:#fff}
 .footer .footer-bottom{background:#3f3f3f;padding:2rem 0}
 .footer .footer-bottom .wrapped{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
@@ -71,8 +71,8 @@ a:hover{text-decoration:none}
 .block-hero .wrapped h1{color:#fff;max-width:30rem;font-size:3rem;position:relative;z-index:9}
 .block-hero .wrapped h1:after{content:"";display:block;height:10px;width:50px;background:#163966;bottom:-20px;position:absolute}
 .block-hero .wrapped .subtext{color:#fff;margin-top:2rem;max-width:35rem}
-.block-video{min-height:70vh;background-size:cover;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;position:relative;overflow:hidden}
-.block-video:after{position:absolute;content:"";background-color:rgba(0,0,0,.2);height:100%;width:100%;top:0;left:0}
+.block-video{min-height:70vh;background-size:cover;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;position:relative;background:#163966;overflow:hidden}
+.block-video:after{position:absolute;content:"";background-color:rgba(0,0,0,.3);height:100%;width:100%;top:0;left:0}
 .block-video video{z-index:0;position:absolute;top:50%;left:50%;right:0;bottom:0;min-width:100%;min-height:100%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%)}
 .block-video .wrapped{width:100%;margin-bottom:8rem}
 .block-video .wrapped h1{color:#fff;font-size:3rem;position:relative;z-index:9}
