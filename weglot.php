@@ -29,7 +29,7 @@ function custom_weglot_button_html( $html, $add_class = '' ) {
 	$class_aside = $current_this->get_class_dropdown();
 
 	$button_html = sprintf( '<!--Weglot %s-->', WEGLOT_VERSION );
-	$button_html .= sprintf( "<aside data-wg-notranslate class='country-selector %s'>", $class_aside . $add_class );
+	$button_html .= sprintf( "<div data-wg-notranslate class='country-selector %s'>", $class_aside . $add_class );
 	if ( ! empty( $original_language ) && ! empty( $destination_language ) ) {
 		$current_language_entry = $language_service->get_language_from_internal( $current_language->getInternalCode() );
 		$name                   = $current_this->get_name_with_language_entry( $current_language_entry );
@@ -78,7 +78,7 @@ function custom_weglot_button_html( $html, $add_class = '' ) {
 		$button_html .= '</ul>';
 	}
 
-	$button_html .= '</aside>';
+	$button_html .= '</div>';
 
 	return $button_html;
 }
