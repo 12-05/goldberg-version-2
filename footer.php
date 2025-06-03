@@ -61,7 +61,7 @@
     </footer>
     <?php 
     if(get_field('home_siegel', 'option')) {?>
-        <div role="complementary" class="home-siegel">
+        <div role="complementary" class="home-siegel" aria-label="Home Siegel">
             <img src="<?php the_field('home_siegel', 'option');?>" alt="Siegel" />
         </div>
     <?php } ?>     
