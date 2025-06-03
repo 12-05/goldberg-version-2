@@ -48,7 +48,7 @@ p{font-size:1rem;margin-top:0}
 .header .nav ul li ul.sub-menu{display:none;margin-left:2rem;margin-top:1rem;margin-bottom:1rem;min-height:1;-webkit-transition:all .3s ease;transition:all .3s ease}
 .footer .footer-top{background:#163966;color:#fff;padding:4rem 0}
 .footer .footer-top .wrapped{display:grid;grid-gap:2rem;grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
-.footer .footer-top .wrapped .office h3{font-size:32px;margin-bottom:2rem;color:#fff}
+.footer .footer-top .wrapped .office h2{font-size:32px;margin-bottom:2rem;color:#fff}
 .footer .footer-top .wrapped .office p{color:#fff;opacity:.75}
 .footer .footer-top .wrapped .office p a{color:#fff}
 .footer .footer-bottom{background:#3f3f3f;padding:2rem 0}

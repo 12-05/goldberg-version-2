@@ -16,7 +16,7 @@
                         $id = $office->ID;
                         ?>
                         <div class="office">
-                            <h3><?php echo get_the_title($id);?></h3>
+                            <h2><?php echo get_the_title($id);?></h2>
                             <p>
                                 Büro <?php echo get_field('stadt', $id);?><br />
                                 <?php echo get_field('strasse', $id);?><br />
