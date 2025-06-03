@@ -128,7 +128,7 @@ img.aligncenter{display:block;margin:0 auto}
 .goldberg-post .article-link{text-decoration:none;color:#163966;display:block;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-transition:all .3s ease;transition:all .3s ease}
 .goldberg-post .article-link:hover svg{-webkit-transition:all .3s ease;transition:all .3s ease;-webkit-transform:translateX(1rem);transform:translateX(1rem)}
 .news-container{display:grid;grid-template-columns:3fr 1fr;padding-bottom:5rem;grid-gap:2rem;max-width:60rem}
-.news-container .entry-meta{color:#ccc;font-size:12px}
+.news-container .entry-meta{color:#555;font-size:12px}
 .news-container .nav-links{max-width:400px;margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
 .news-container .nav-links a{text-decoration:none;color:#163966}
 .news-container .nav-links .page-numbers{background:#eee;padding:.5rem .25rem}

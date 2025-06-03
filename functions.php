@@ -16,6 +16,8 @@ class GoldBergThemeClass
         add_action('enqueue_block_editor_assets', array($this, 'load_editors_scripts'));
         add_action('acf/init', array($this, 'add_news_fields'));
         add_filter('excerpt_length', array($this, 'excerpt_length'), 999);
+        add_filter('get_search_form', array($this, 'update_accessbility'));
+
         add_theme_support('post-thumbnails');
         $this->load_inc();
     }
@@ -138,6 +140,31 @@ class GoldBergThemeClass
         );
     }
 
+    public function update_accessbility($form)
+    {
+        $form['input']['aria-label'] = __('Search for:', 'goldberg');
+        return $form;
+    }
+
+    public static function custom_weglot_language_switcher() {
+    if ( function_exists( 'weglot_get_current_language' ) && function_exists( 'weglot_get_all_languages' ) ) {
+        $current_lang = weglot_get_current_language();
+        $languages = weglot_get_all_languages();
+
+        echo '<div class="country-selector">';
+        foreach ( $languages as $language ) {
+            $code = $language->getCode();
+            $name = $language->getLocalName(); // Use getEnglishName() for English names
+
+            if ( $code === $current_lang ) {
+                echo '<span class="current-language">' . esc_html( $name ) . '</span>';
+            } else {
+                echo '<a href="' . esc_url( weglot_get_url_for_language( $code ) ) . '" class="language-option">' . esc_html( $code ) . '</a>';
+            }
+        }
+        echo '</div>';
+    }
+    }
 }
 
 new GoldBergThemeClass();
