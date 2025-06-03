@@ -5,7 +5,7 @@
     }
     ?>
 
-<html lang="<?php echo $lang;?>
+<html lang="<?php echo $lang;?>">
     <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 
