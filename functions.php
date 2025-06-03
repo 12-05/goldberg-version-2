@@ -150,7 +150,8 @@ class GoldBergThemeClass
     if ( function_exists( 'weglot_get_current_language' ) && function_exists( 'weglot_get_languages_available' ) ) {
         $current_lang = weglot_get_current_language();
         $languages = weglot_get_languages_available();
-
+        var_dump($languages);
+        return;
         echo '<div class="country-selector">';
         foreach ( $languages as $language ) {
             $code = $language->getCode();
