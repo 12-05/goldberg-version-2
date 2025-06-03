@@ -5,7 +5,7 @@
     }
     ?>
 
-<html lang="<?php echo $lang;?>">
+<html lang="<?php echo $lang;?>
     <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 
@@ -35,7 +35,7 @@
                     <img src="<?php echoImg('phone.svg');?>" alt="Telefon" />
                 </div>
                 <div class="language-menu">
-                    <?php GoldBergThemeClass::custom_weglot_language_switcher();?>
+                <div id="weglot_here"></div> 
                 </div>
                 <div class="menu-toggle">
                     <input aria-label="Menu toggle" id="menu__toggle" type="checkbox" />

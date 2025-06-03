@@ -31,6 +31,8 @@ class GoldBergThemeClass
         require_once get_stylesheet_directory() . '/inc/blocks.class.php';
         require_once get_stylesheet_directory() . '/inc/siegel.php';
         require_once get_stylesheet_directory() . '/misc.php';
+        require_once get_stylesheet_directory() . '/weglot.php';
+
 
     }
 
