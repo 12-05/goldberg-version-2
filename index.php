@@ -25,7 +25,7 @@ get_header();
         <h1>News</h1>
     </div>
 </section>
-	<main class="news-container wrapped" id="content" tabindex="-1">
+	<div class="news-container wrapped" id="content" tabindex="-1">
 	
 
 			<!-- Do the left sidebar check and opens the primary div -->
@@ -70,7 +70,7 @@ get_header();
 			<!-- Do the right sidebar check -->
 
 
-	</main><!-- #content -->
+	</div><!-- #content -->
 
 </div><!-- #index-wrapper -->
 
