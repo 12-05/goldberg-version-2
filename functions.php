@@ -16,7 +16,6 @@ class GoldBergThemeClass
         add_action('enqueue_block_editor_assets', array($this, 'load_editors_scripts'));
         add_action('acf/init', array($this, 'add_news_fields'));
         add_filter('excerpt_length', array($this, 'excerpt_length'), 999);
-        add_filter('get_search_form', array($this, 'update_accessbility'));
 
         add_theme_support('post-thumbnails');
         $this->load_inc();
@@ -142,11 +141,7 @@ class GoldBergThemeClass
         );
     }
 
-    public function update_accessbility($form)
-    {
-        $form['input']['aria-label'] = __('Search for:', 'goldberg');
-        return $form;
-    }
+  
 
     public static function custom_weglot_language_switcher() {
     if ( function_exists( 'weglot_get_current_language' ) && function_exists( 'weglot_get_languages_available' ) ) {
