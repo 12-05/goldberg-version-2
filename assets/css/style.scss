@@ -1307,6 +1307,11 @@ img.aligncenter {
 			a {
 				font-size: 0.75rem;
 			}
+			input {
+				max-width: none;
+				height: 2em !important;
+				width: 2em !important;
+			}
 		}
 		input[type="submit"] {
 			width: 100%;
