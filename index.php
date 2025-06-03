@@ -25,12 +25,12 @@ get_header();
         <h1>News</h1>
     </div>
 </section>
-	<div class="news-container wrapped" id="content" tabindex="-1">
+	<main class="news-container wrapped" id="content" tabindex="-1">
 	
 
 			<!-- Do the left sidebar check and opens the primary div -->
 
-			<main class="site-main" id="main">
+			<div class="site-main" id="main">
 
 				<?php
 				if ( have_posts() ) {
@@ -59,7 +59,7 @@ get_header();
 
          
 
-			</main><!-- #main -->
+			</div><!-- #main -->
             
 
             <div class="sidebar">
@@ -70,7 +70,7 @@ get_header();
 			<!-- Do the right sidebar check -->
 
 
-	</div><!-- #content -->
+	</main><!-- #content -->
 
 </div><!-- #index-wrapper -->
 
