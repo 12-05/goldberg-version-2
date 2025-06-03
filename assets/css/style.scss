@@ -1303,6 +1303,10 @@ img.aligncenter {
 			max-width: 650px;
 		}
 		.tnp-privacy-field {
+			label {
+				gap: 0.5rem;
+				display: flex;
+			}
 			margin-bottom: 1rem;
 			a {
 				font-size: 0.75rem;
