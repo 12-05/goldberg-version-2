@@ -1,4 +1,11 @@
-<html>
+<?php 
+    $lang = "de";
+    if(function_exists('weglot_get_current_language')) {
+        $lang = weglot_get_current_language();
+    }
+    ?>
+
+<html lang="<?php echo $lang;?>">
     <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 
@@ -14,7 +21,7 @@
 
     <header class="header">
             <div class="logo-wrapper">
-                <a href="/"><img class="logo" src="<?php echoImg('gblogo.png');?>" /></a>
+                <a aria-label="Go To Homepage" title="Go to Homepage" href="/"><img alt="Goldberg Ullrich Logo" class="logo" src="<?php echoImg('gblogo.png');?>" /></a>
             </div>
             <div class="toolbar">
                 <div class="phone">
@@ -31,17 +38,17 @@
                 <div id="weglot_here"></div> 
                 </div>
                 <div class="menu-toggle">
-                    <input id="menu__toggle" type="checkbox" />
+                    <input aria-label="Menu toggle" id="menu__toggle" type="checkbox" />
                     <label class="menu__btn" for="menu__toggle">
                     <span></span>
                     </label>
-                    <div class="nav">
+                    <nav class="nav" aria-label="Main Navigation">
 <?php 
 wp_nav_menu( array(
     'theme_location' => 'main'
 ));
 ?>
-                </div>
+                </nav>
                 </div>
                 
                

@@ -11,7 +11,7 @@
                         'order' => 'ASC'
                     )
                 );
-                if($offices) {
+                if(is_array($offices)) {
                     foreach($offices as $office) {
                         $id = $office->ID;
                         ?>
@@ -40,15 +40,15 @@
         </div>
         <div class="footer-bottom">
             <div class="wrapped">
-                <nav class="footer-nav">
+                <nav class="footer-nav" aria-label="Footer Navigation">
                     <?php 
                     wp_nav_menu(array(
                         'menu_position' => 'footer'
                     ));?>
                 </nav>
-                <nav class="social-nav">
+                <nav class="social-nav" aria-label="Social Media">
                     <?php   $icons = get_field('social', 'option');
-                            if($icons) {
+                            if(is_array($icons)) {
                                 foreach($icons as $icon) { ?>
                                     <a href="<?php echo $icon['link'];?>"><img src="<?php echo $icon['icon'];?>" alt="icon" /></a>
                                 <?php 
@@ -61,7 +61,7 @@
     </footer>
     <?php 
     if(get_field('home_siegel', 'option')) {?>
-        <div class="home-siegel">
+        <div role="complementary" class="home-siegel">
             <img src="<?php the_field('home_siegel', 'option');?>" alt="Siegel" />
         </div>
     <?php } ?>     
