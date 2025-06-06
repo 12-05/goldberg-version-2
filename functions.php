@@ -54,8 +54,9 @@ class GoldBergThemeClass
     }
     
     public function tribe_stuff() {
-
+        if(class_exists('Tribe__Events__Pro__Main')) {
             remove_filter( 'tribe_get_venue', array( Tribe__Events__Pro__Main::instance()->single_event_meta, 'link_venue' ) );
+        }
        
     }
 
