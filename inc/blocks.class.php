@@ -77,6 +77,20 @@ class GoldbergBlocksClass
             ),
         ));
         acf_register_block_type(array(
+            'name' => 'Goldberg Events',
+            'title' => __('Goldberg Events'),
+            'description' => __('Events für Goldberg.'),
+            'render_template' => get_template_directory() . '/inc/blocks/events.php',
+            'category' => 'goldberg',
+            'icon' => 'admin-comments',
+            'align' => 'full',
+            'supports' => array(
+                'align' => array('full'),
+                'align' => false,
+            ),
+        ));
+
+        acf_register_block_type(array(
             'name' => 'Goldberg Anwaelte',
             'title' => __('Goldberg Anwaelte'),
             'description' => __('Anwälte für Goldberg.'),

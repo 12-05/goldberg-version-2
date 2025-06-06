@@ -832,6 +832,62 @@ img.aligncenter {
 	}
 }
 
+.block-events {
+	@include sectionPad();
+	background: #ddd;
+	.wrapped {
+		display: grid;
+		grid-template-columns: 1fr 3fr;
+		// make one column on mobile
+		@media (max-width: $mobile) {
+			grid-template-columns: 1fr;
+		}
+		.events-list {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+			grid-gap: 2rem;
+			.event-image {
+				width: 100%;
+				height: 200px;
+				object-fit: cover;
+				margin-bottom: 1rem;
+			}
+			.post {
+				display: block;
+				margin-bottom: 2rem;
+				color: $text;
+				text-decoration: none;
+				transition: all 0.3s ease;
+				&:hover {
+					transition: all 0.3s ease;
+
+					transform: scale(1.01);
+				}
+				.date {
+					font-family: "Roboto Condensed";
+				}
+				h3 {
+					font-size: 1.2rem;
+					margin-bottom: 1rem;
+				}
+				.button {
+					text-decoration: none;
+					color: #163966;
+					display: block;
+					display: -webkit-box;
+					display: -ms-flexbox;
+					display: flex;
+					-webkit-box-align: center;
+					-ms-flex-align: center;
+					align-items: center;
+					-webkit-transition: all 0.3s ease;
+					transition: all 0.3s ease;
+				}
+			}
+		}
+	}
+}
+
 .anwalt-profil {
 	// make this responsive
 	.anwalt-hero {
