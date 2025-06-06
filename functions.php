@@ -19,12 +19,14 @@ class GoldBergThemeClass
 
         add_theme_support('post-thumbnails');
         $this->load_inc();
+        $this->tribe_stuff();
     }
 
     public function load_inc()
     {
         require_once get_stylesheet_directory() . '/inc/lawyer.model.php';
         require_once get_stylesheet_directory() . '/inc/office.model.php';
+        require_once get_stylesheet_directory() . '/inc/events.model.php';
         require_once get_stylesheet_directory() . '/inc/field.model.php';
         require_once get_stylesheet_directory() . '/inc/misc.functions.php';
         require_once get_stylesheet_directory() . '/inc/blocks.class.php';
@@ -37,7 +39,7 @@ class GoldBergThemeClass
 
     public function load_styles()
     {
-        wp_enqueue_style('style', get_template_directory_uri() . '/assets/css/compiled/style.css');
+        wp_enqueue_style('style', get_template_directory_uri() . '/assets/css/compiled/style.min.css', time());
         wp_enqueue_style('slick', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css');
         wp_enqueue_style('slick-theme', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css');
 
@@ -47,6 +49,16 @@ class GoldBergThemeClass
     {
         wp_enqueue_script('custom', get_template_directory_uri() . '/assets/js/compiled/custom.js', array('jquery'));
         wp_enqueue_script('slick', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js', array('jquery'));
+    }
+    
+    public function tribe_stuff() {
+        if(class_exists('Tribe__Events__Pro__Main')) {
+
+        function tribe_remove_venue_link() {
+            remove_filter( 'tribe_get_venue', array( Tribe__Events__Pro__Main::instance()->single_event_meta, 'link_venue' ) );
+        }
+        add_action( 'tribe_events_single_meta_before', 'tribe_remove_venue_link', 100 );
+        }
     }
 
     public function save_fields()

@@ -668,6 +668,26 @@ a {
 	}
 }
 
+a.event-button {
+	background: $blue;
+	color: white !important;
+	font-weight: bold !important;
+	padding: 0.5rem 1rem;
+	text-decoration: none;
+	span {
+		color: white;
+	}
+}
+
+.tribe-events-calendar-list__event-title-link {
+	text-decoration: none;
+	font-size: 1.5rem;
+}
+
+.tribe-events-c-small-cta {
+	font-size: 0.75rem;
+}
+
 img.aligncenter {
 	display: block;
 	margin: 0 auto;
@@ -1503,4 +1523,122 @@ img.aligncenter {
 
 .newsletter-wrap > p {
 	display: none !important;
+}
+
+.tribe-event-date-start {
+	font-size: 1rem;
+}
+
+.tribe-event-time,
+.tribe-event-date-end {
+	font-size: 1rem;
+}
+
+.tribe-events-cost {
+	font-size: 1rem;
+}
+
+.tribe-events-calendar-list__month-separator {
+	font-size: 1rem;
+	color: #555;
+}
+
+.tribe-events-c-subscribe-dropdown__container {
+	display: inline-block !important;
+}
+
+.tribe-events-c-subscribe-dropdown__button {
+	background: $blue;
+	color: white !important;
+	display: inline-block;
+	svg {
+		stroke: white;
+	}
+	button {
+		font-weight: bold;
+		appearance: none;
+		background: transparent;
+		border: 0px;
+		color: white;
+		border-radius: 0px;
+	}
+}
+
+.events-single .wp-post-image {
+	height: 400px !important;
+	object-fit: cover;
+}
+
+.tribe-events-schedule h2 {
+	font-size: 1rem;
+}
+
+.tribe-events-calendar-list__event-featured-image {
+	width: 100%;
+	box-sizing: content-box;
+	padding-bottom: 100%;
+	max-height: 350px;
+	object-fit: cover;
+	aspect-ratio: 1 / 1;
+}
+
+.events-single h1 {
+	font-size: 2.25rem !important;
+}
+
+.events-single h2 {
+	font-size: 1.25rem !important;
+}
+
+.divider {
+	background: #ccc !important;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	height: 1px;
+	-color: #ccc !important;
+}
+
+.lawyers {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	grid-gap: 2rem;
+}
+
+.lawer-box {
+	.image-holder {
+		width: 100%;
+		padding-bottom: 100%;
+		margin-bottom: 1rem;
+		position: relative;
+		overflow: hidden;
+		border-radius: 3px;
+		background: rgb(231, 227, 219);
+		background: radial-gradient(
+			circle,
+			rgba(231, 227, 219, 1) 0%,
+			rgba(190, 187, 183, 1) 100%
+		);
+		img {
+			position: absolute;
+			height: 100%;
+			width: 100%;
+			margin-bottom: 1rem;
+		}
+	}
+
+	width: 100%;
+	p {
+		font-size: 0.7rem;
+	}
+	a {
+		font-size: 0.7rem;
+	}
+}
+
+.image-holder {
+	background: radial-gradient(
+		circle,
+		rgba(231, 227, 219, 1) 0%,
+		rgba(190, 187, 183, 1) 100%
+	);
 }

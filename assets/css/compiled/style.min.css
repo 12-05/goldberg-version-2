@@ -84,6 +84,10 @@ a:hover{text-decoration:none}
 .block-rechtsgebiete .grid .rechtsgebiet:hover{background:#163966;color:#fff;-webkit-transition:all .3s ease;transition:all .3s ease}
 .block-rechtsgebiete .grid .rechtsgebiet:hover svg path{-webkit-transition:all .3s ease;transition:all .3s ease;stroke:#fff}
 .block-rechtsgebiete .grid .rechtsgebiet .text{-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;width:100%}
+a.event-button{background:#163966;color:#fff !important;font-weight:bold !important;padding:.5rem 1rem;text-decoration:none}
+a.event-button span{color:#fff}
+.tribe-events-calendar-list__event-title-link{text-decoration:none;font-size:1.5rem}
+.tribe-events-c-small-cta{font-size:.75rem}
 img.aligncenter{display:block;margin:0 auto}
 .block-bild img{width:100%}
 .block-anwaelte{padding-top:3rem;padding-bottom:3rem}
@@ -220,6 +224,27 @@ img.aligncenter{display:block;margin:0 auto}
 .block-links .wrapped .link:hover{background:#ebebeb}
 .block-links .wrapped .link:after{height:2rem;content:"";width:2rem;position:absolute;background-size:contain;background-image:url("../../images/link.svg");background-repeat:no-repeat;right:1rem;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}
 .newsletter-wrap>p{display:none !important}
+.tribe-event-date-start{font-size:1rem}
+.tribe-event-time,.tribe-event-date-end{font-size:1rem}
+.tribe-events-cost{font-size:1rem}
+.tribe-events-calendar-list__month-separator{font-size:1rem;color:#555}
+.tribe-events-c-subscribe-dropdown__container{display:inline-block !important}
+.tribe-events-c-subscribe-dropdown__button{background:#163966;color:#fff !important;display:inline-block}
+.tribe-events-c-subscribe-dropdown__button svg{stroke:#fff}
+.tribe-events-c-subscribe-dropdown__button button{font-weight:bold;-webkit-appearance:none;-moz-appearance:none;appearance:none;background:rgba(0,0,0,0);border:0;color:#fff;border-radius:0}
+.events-single .wp-post-image{height:400px !important;-o-object-fit:cover;object-fit:cover}
+.tribe-events-schedule h2{font-size:1rem}
+.tribe-events-calendar-list__event-featured-image{width:100%;-webkit-box-sizing:content-box;box-sizing:content-box;padding-bottom:100%;max-height:350px;-o-object-fit:cover;object-fit:cover;aspect-ratio:1/1}
+.events-single h1{font-size:2.25rem !important}
+.events-single h2{font-size:1.25rem !important}
+.divider{background:#ccc !important;margin-top:3rem;margin-bottom:3rem;height:1px;-color:#ccc !important}
+.lawyers{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));grid-gap:2rem}
+.lawer-box{width:100%}
+.lawer-box .image-holder{width:100%;padding-bottom:100%;margin-bottom:1rem;position:relative;overflow:hidden;border-radius:3px;background:#e7e3db;background:radial-gradient(circle,#e7e3db 0,#bebbb7 100%)}
+.lawer-box .image-holder img{position:absolute;height:100%;width:100%;margin-bottom:1rem}
+.lawer-box p{font-size:.7rem}
+.lawer-box a{font-size:.7rem}
+.image-holder{background:radial-gradient(circle,#e7e3db 0,#bebbb7 100%)}
 @media(max-width:800px){.anwalt-footer{grid-template-columns:1fr;grid-gap:0}
 .anwalt-footer .anwalt-text{padding:1rem}
 .post-thumbnail img{height:250px}
