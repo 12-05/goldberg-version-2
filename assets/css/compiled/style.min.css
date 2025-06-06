@@ -246,6 +246,7 @@ img.aligncenter{display:block;margin:0 auto}
 .lawer-box a{font-size:.7rem}
 .image-holder{background:radial-gradient(circle,#e7e3db 0,#bebbb7 100%)}
 .tribe-events-meta-group-venue{width:100% !important}
+.tribe-events-virtual-single-marker{display:none !important}
 @media(max-width:800px){.anwalt-footer{grid-template-columns:1fr;grid-gap:0}
 .anwalt-footer .anwalt-text{padding:1rem}
 .post-thumbnail img{height:250px}
