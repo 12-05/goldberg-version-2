@@ -16,6 +16,8 @@ class GoldBergThemeClass
         add_action('enqueue_block_editor_assets', array($this, 'load_editors_scripts'));
         add_action('acf/init', array($this, 'add_news_fields'));
         add_filter('excerpt_length', array($this, 'excerpt_length'), 999);
+        add_action( 'tribe_events_single_meta_before', array($this, 'tribe_stuff'), 100 );
+
 
         add_theme_support('post-thumbnails');
         $this->load_inc();
@@ -52,13 +54,9 @@ class GoldBergThemeClass
     }
     
     public function tribe_stuff() {
-        if(class_exists('Tribe__Events__Pro__Main')) {
 
-        function tribe_remove_venue_link() {
             remove_filter( 'tribe_get_venue', array( Tribe__Events__Pro__Main::instance()->single_event_meta, 'link_venue' ) );
-        }
-        add_action( 'tribe_events_single_meta_before', 'tribe_remove_venue_link', 100 );
-        }
+       
     }
 
     public function save_fields()
